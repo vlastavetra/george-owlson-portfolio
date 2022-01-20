@@ -1,8 +1,14 @@
 import React from 'react';
+import {BrowserRouter} from 'react-router-dom';
+import Main from '../page/Main';
 import '../../styles/global.css';
 
 function App() {
-  return <p>Start project</p>;
+  return (
+    <BrowserRouter>
+      <Main/>
+    </BrowserRouter>
+  );
 }
 
 export default App;

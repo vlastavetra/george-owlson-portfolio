@@ -1,0 +1,38 @@
+.ticker {
+  padding: 40px 0;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  border-bottom: 2px solid #000;
+}
+
+.list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .ticker {
+
+  }
+}
+
+@media (max-width: 1439px) {
+  .ticker {
+
+  }
+}
+
+@media (max-width: 1919px) {
+  .ticker {
+
+  }
+}

@@ -1,0 +1,48 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  border-bottom: 2px solid #000;
+}
+
+.photo {
+  width: 40%;
+  height: 100%;
+  border-right: 2px solid #000;
+}
+
+.textContainer {
+  padding: 40px;
+}
+
+.text {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .intro {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .photo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1439px) {
+  .intro {
+    padding: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 1919px) {
+  .intro {
+    padding: 0 30px 0 0;
+  }
+}
