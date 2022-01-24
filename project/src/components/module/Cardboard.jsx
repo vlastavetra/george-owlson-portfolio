@@ -1,11 +1,11 @@
 import React from 'react';
 import Card from '../module/Card.jsx';
-import styles from '../module/Cardboard.module.css';
+import styles from '../module/Cardboard.module.scss';
 
 function Cardboard() {
   return (
-    <section className={styles.cardboard}>
-      <h2 className={styles.cardboardTitle}>My favorite works</h2>
+    <section className={styles.root}>
+      <h2 className={styles.title}>My favorite works</h2>
       <Card/>
     </section>
   );

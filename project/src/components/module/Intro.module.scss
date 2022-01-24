@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  @include typo_text;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $BP2_max) {
+    padding: 40px 0;
+    flex-direction: column;
+  }
+}
+
+.imageContainer {
+  position: relative;
+  width: 35%;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  border-bottom: $border_2;
+}
+
+.textContainer {
+  padding: 40px 60px;
+  border-left: $border_2;
+}
+
+.text {
+  @include reset-list;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,42 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin typo_h1 {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@mixin typo_h2 {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@mixin typo_h3 {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@mixin typo_accent {
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@mixin typo_text {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 2px;
+}

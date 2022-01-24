@@ -1,3 +1,5 @@
+@import '../styles/variables.scss';
+
 @font-face {
 	font-family: 'Montserrat';
 	src: url("../../public/fonts/Montserrat-Regular.ttf") format("truetype");
@@ -14,12 +16,6 @@
 	font-display: swap;
 }
 
-:root {
-  --color-black : #000;
-  --color-white: #fff;
-  --color-light-grey: #f5f5f5;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -29,13 +25,12 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  color: var(--color-black);
-  background: var(--color-light-grey);
+  color: $color_black;
+  background: $color_light_grey;
   font-family: 'Montserrat', Helvetica, sans-serif;
   min-width: 320px;
 }
 
-*,
 *::before,
 *::after {
 	box-sizing: inherit;

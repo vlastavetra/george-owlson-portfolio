@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.ticker {
+  @include typo_accent;
+  padding: 35px 0;
+  background-image: url(../../../public/img/greenGrid.svg);
+  background-repeat: repeat;
+  border-bottom: $border_2;
+}
+
+.list {
+  @include reset-list;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  margin-right: 10px;
+}

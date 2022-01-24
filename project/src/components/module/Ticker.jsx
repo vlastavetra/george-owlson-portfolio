@@ -1,6 +1,6 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import styles from '../module/Ticker.module.css';
+import styles from '../module/Ticker.module.scss';
 
 function Ticker() {
   return (

@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {}
+
+.title {
+  @include typo_h2;
+  border-top: $border_2;
+  border-bottom: $border_2;
+
+  @media (max-width: $BP2-max) {
+    padding: 40px 20px;
+  }
+
+  @media (max-width: $BP3-max) {
+    padding: 40px 30px;
+  }
+
+  @media (min-width: $BP4-min) {
+    padding: 40px 40px;
+  }
+}

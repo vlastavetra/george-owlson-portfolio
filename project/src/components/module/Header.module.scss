@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: $border_2;
+
+  @media screen and (max-width: $BP2_max) {
+		padding-bottom: 95px;
+	}
+
+  @media screen and (max-width: $BP3_max) {
+		padding: 40px 20px;
+	}
+
+  @media screen and (max-width: $BP4_max) {
+		padding: 40px 30px;
+	}
+
+  @media screen and (min-width: $BP5_min) {
+		padding: 40px 40px;
+	}
+}
+
+.title {
+  @include typo_h1;
+}
+
+.icon {}

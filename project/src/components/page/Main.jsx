@@ -4,11 +4,11 @@ import Ticker from '../module/Ticker';
 import Intro from '../module/Intro';
 import Cardboard from '../module/Cardboard';
 import Gallery from '../module/Gallery';
-import styles from '../page/main.module.css';
+import styles from '../page/main.module.scss';
 
 function Main() {
   return (
-    <main className={styles.main}>
+    <main className={styles.root}>
       <Header/>
       <main>
         <Ticker/>

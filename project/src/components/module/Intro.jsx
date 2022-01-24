@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from '../module/Intro.module.css';
+import styles from '../module/Intro.module.scss';
 
 function Intro() {
   return (
-    <section className={styles.intro}>
-      <div className={styles.photoContainer}>
+    <section className={styles.root}>
+      <div className={styles.imageContainer}>
         <img
-          className={styles.photo}
+          className={styles.image}
           src="https://thumb.tildacdn.com/tild6337-3762-4038-b266-346364313738/-/resize/816x/-/format/webp/me_port_photo_1.jpg"
           alt="georgy reznikov"
         />
@@ -14,8 +14,8 @@ function Intro() {
       <div className={styles.textContainer}>
         <p className={styles.text}>
           Hi, my name is George! <br /><br />
-          And i&apos;m a designer and art-director from Moscow. <br />
-          I&apos;ve been working for famous agencies with the world&apos;s largest brands for 8 years. <br />
+          I&apos;m a designer and art-director from Moscow. <br />
+          I&apos;ve been working for famous agencies with the world&apos;s largest brands for&#160;8&#160;years. <br />
           Now i&apos;m focused on creating useful interfaces and prefer long term meaningful projects.
         </p>
         <ul className={styles.text}>
