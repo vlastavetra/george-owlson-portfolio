@@ -7,7 +7,7 @@ function Intro() {
       <div className={styles.imageContainer}>
         <img
           className={styles.image}
-          src="https://thumb.tildacdn.com/tild6337-3762-4038-b266-346364313738/-/resize/816x/-/format/webp/me_port_photo_1.jpg"
+          src="https://thumb.tildacdn.com/tild6630-3465-4666-a238-303731383962/-/format/webp/G_prisma.jpg"
           alt="georgy reznikov"
         />
       </div>
