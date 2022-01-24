@@ -4,9 +4,8 @@
 .root {
   @include typo_text;
   display: flex;
-  justify-content: space-between;
 
-  @media (max-width: $BP2_max) {
+  @media (max-width: $BP1_max) {
     padding: 40px 0;
     flex-direction: column;
   }
@@ -14,8 +13,23 @@
 
 .imageContainer {
   position: relative;
-  width: 35%;
   overflow: hidden;
+
+  @media (max-width: $BP3_max) {
+    width: 60%;
+  }
+
+  @media (min-width: $BP3_min) {
+    width: 45%;
+  }
+
+  @media (min-width: $BP4_min) {
+    width: 35%;
+  }
+
+  @media (min-width: $BP5_min) {
+    width: 22%;
+  }
 }
 
 .image {
@@ -24,16 +38,24 @@
   top: 50%;
   left: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   transform: translateY(-50%);
-  border-bottom: $border_2;
 }
 
 .textContainer {
-  padding: 40px 60px;
-  border-left: $border_2;
+  padding: 20px 40px;
+
+  @media (min-width: $BP2_min) {
+    border-left: $border_2;
+    padding: 40px 60px;
+  }
 }
 
 .text {
   @include reset-list;
-  margin-bottom: 30px;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+	}
 }

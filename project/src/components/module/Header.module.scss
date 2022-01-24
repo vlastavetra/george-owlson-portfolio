@@ -15,12 +15,8 @@
 		padding: 40px 20px;
 	}
 
-  @media screen and (max-width: $BP4_max) {
-		padding: 40px 30px;
-	}
-
-  @media screen and (min-width: $BP5_min) {
-		padding: 40px 40px;
+  @media screen and (min-width: $BP4_min) {
+		padding: 40px 60px;
 	}
 }
 

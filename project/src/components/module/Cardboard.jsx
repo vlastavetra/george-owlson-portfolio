@@ -5,7 +5,7 @@ import styles from '../module/Cardboard.module.scss';
 function Cardboard() {
   return (
     <section className={styles.root}>
-      <h2 className={styles.title}>My favorite works</h2>
+      <Card/>
       <Card/>
     </section>
   );
