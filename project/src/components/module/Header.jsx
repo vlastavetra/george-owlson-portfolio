@@ -4,7 +4,7 @@ import styles from '../module/Header.module.css';
 function Header() {
   return (
     <header className={styles.header}>
-      <span className={styles.logo}>Georgy Reznikov</span>
+      <span className={styles.logo}>George Reznikov</span>
       <a href='https://t.me/georgeowlson' className={styles.telegram}>
         <svg width="30" height="30" viewBox="0 0 63 55" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M20.6833 32.7025C20.6833 36.2043 21.084 39.6864 21.084 43.1838C21.084 44.7021 21.2843 46.1689 21.2843 47.6863C21.2843 48.1106 21.3089 50.4348 22.0855 50.4727C22.6221 50.4988 23.7076 50.6284 24.1776 50.3804C24.7914 50.0565 25.334 49.44 25.8468 49.0149C27.443 47.6915 28.5099 45.9386 29.6527 44.3278C30.6965 42.8567 30.5938 42.509 31.5 41.0063" stroke="black" strokeWidth="3" strokeLinecap="round"/>

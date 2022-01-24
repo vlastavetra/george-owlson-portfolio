@@ -6,6 +6,8 @@
   text-transform: uppercase;
   font-family: 'Montserrat', Helvetica, sans-serif;
   border-bottom: 2px solid #000;
+  background-image: url(../../../public/img/greenGrid.svg);
+  background-repeat: repeat;
 }
 
 .list {

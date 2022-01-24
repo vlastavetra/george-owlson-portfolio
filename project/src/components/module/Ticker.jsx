@@ -4,8 +4,8 @@ import styles from '../module/Ticker.module.css';
 
 function Ticker() {
   return (
-    <div className={styles.ticker}>
-      <Marquee gradient={false} pauseOnClick="true" speed={30}>
+    <section className={styles.ticker}>
+      <Marquee gradient={false} pauseOnHover="true" speed={30}>
         <ul className={styles.list}>
           <li className={styles.item}>UX/UI</li>
           <li className={styles.item}>—</li>
@@ -19,7 +19,7 @@ function Ticker() {
           <li className={styles.item}>—</li>
         </ul>
       </Marquee>
-    </div>
+    </section>
   );
 }
 
