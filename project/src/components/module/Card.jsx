@@ -1,9 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 import styles from '../module/Card.module.scss';
 
-function Card() {
+function Card({id}) {
   return (
-    <div className={styles.root}>
+    <Link className={styles.root} to={`project-${id}`}>
       <div className={styles.textContainer}>
         <span className={styles.tag}>#graphic art</span>
         <h3 className={styles.title}>50 Years of Big Mac</h3>
@@ -19,8 +21,12 @@ function Card() {
           alt="georgy reznikov"
         />
       </div>
-    </div>
+    </Link>
   );
 }
+
+Card.propTypes = {
+  id: PropTypes.string.isRequired,
+};
 
 export default Card;

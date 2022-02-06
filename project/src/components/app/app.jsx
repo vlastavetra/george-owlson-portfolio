@@ -1,12 +1,24 @@
 import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
-import Main from '../page/Main';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Main from '../pages/Main';
+import Project from '../pages/Project';
+import PageNotFound from '../pages/PageNotFound';
 import '../../styles/global.scss';
 
 function App() {
   return (
     <BrowserRouter>
-      <Main/>
+      <Switch>
+        <Route path="/" exact>
+          <Main />
+        </Route>
+        <Route path="/project-:id" exact>
+          <Project />
+        </Route>
+        <Route>
+          <PageNotFound/>
+        </Route>
+      </Switch>
     </BrowserRouter>
   );
 }

@@ -5,8 +5,8 @@ import styles from '../module/Cardboard.module.scss';
 function Cardboard() {
   return (
     <section className={styles.root}>
-      <Card/>
-      <Card/>
+      <Card id='1'/>
+      <Card id='2'/>
     </section>
   );
 }

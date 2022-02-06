@@ -5,13 +5,13 @@ import Intro from '../module/Intro';
 import Cardboard from '../module/Cardboard';
 import Gallery from '../module/Gallery';
 import SectionTitle from '../module/SectionTitle';
-import styles from '../page/main.module.scss';
+import styles from './Main.module.scss';
 
 function Main() {
   return (
-    <main className={styles.root}>
+    <div className={styles.root}>
       <Header/>
-      <main>
+      <main className={styles.main}>
         <Ticker/>
         <Intro/>
         <SectionTitle title='My favorite works'/>
@@ -19,7 +19,7 @@ function Main() {
         <SectionTitle title='And more'/>
         <Gallery/>
       </main>
-    </main>
+    </div>
   );
 }
 

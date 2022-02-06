@@ -4,6 +4,7 @@
 .root {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 
   @media (max-width: $BP2-max) {
     padding: 40px 20px;
