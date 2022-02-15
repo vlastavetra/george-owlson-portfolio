@@ -12,7 +12,7 @@ function Intro() {
         This is my portfolio. Here you can find my favorite works: apps, web sites and graphic design.
         </p>
         <p className={styles.text}>
-          I have a lot of skills in different design directions and 8 years of expirience, but now I’m focusing on UI design.
+          I have a lot of skills in different design directions and 8 years of expirience, but now I’m focusing on UI design.
         </p>
         <p className={styles.textContact}>
           You always can write me in Telegram or by e-mail
