@@ -3,25 +3,85 @@
 
 .root {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: $border_2;
 
   @media screen and (max-width: $BP2_max) {
-		padding-bottom: 95px;
+
 	}
 
   @media screen and (max-width: $BP3_max) {
-		padding: 40px 20px;
+
 	}
 
   @media screen and (min-width: $BP4_min) {
-		padding: 40px 60px;
+    padding: 20px 20px 10px;
 	}
 }
 
+.left {
+  border-bottom: $border_1;
+  width: 65%;
+
+  @media screen and (min-width: $BP4_min) {
+    margin-right: 10px;
+	}
+}
+
+.right {
+  position: relative;
+  border-left: $border_1;
+  width: 35%;
+
+  @media screen and (min-width: $BP4_min) {
+    padding-left: 20px;
+    margin-bottom: 10px;
+	}
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+
+  @media screen and (min-width: $BP4_min) {
+    margin-bottom: 100px;
+	}
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  border-radius: 150px;
+  opacity: 0.8;
+}
+
 .title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    background-color: $color_black;
+    width: calc(100% + 10px);
+    height: 1px;
+  }
+}
+
+.titleName {
   @include typo_h1;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.titlePosition {
+  @include typo_text;
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
 .icon {}
