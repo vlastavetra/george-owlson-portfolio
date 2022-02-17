@@ -5,23 +5,41 @@ import styles from '../module/Card.module.scss';
 
 function Card({id}) {
   return (
-    <Link className={styles.root} to={`project-${id}`}>
-      <div className={styles.textContainer}>
-        <span className={styles.tag}>#graphic art</span>
-        <h3 className={styles.title}>50 Years of Big Mac</h3>
+    <div className={styles.root}>
+      <div className={styles.left}>
+        <div className={styles.imageBoard}>
+          <div className={styles.imageContainer}>
+            <img
+              className={styles.image}
+              src="https://static.tildacdn.com/tild3339-6337-4565-a132-303162383162/mockup_PSD_07_flip.png"
+              alt="img"
+            />
+          </div>
+          <div className={styles.imageContainer}>
+            <img
+              className={styles.image}
+              src="https://static.tildacdn.com/tild3339-6337-4565-a132-303162383162/mockup_PSD_07_flip.png"
+              alt="img"
+            />
+          </div>
+        </div>
         <p className={styles.text}>
-          Poster for&#160;an&#160;advertising project for&#160;the&#160;50th&#160;anniversary of&#160;the&#160;Big&#160;Mac. <br />
-          The poster won 2&#160;bronze Cannes&#160;Lions and graced the streets of&#160;Cannes during the&#160;festival.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
+        <Link className={styles.link} to={`project-${id}`}>
+          Read more
+          <svg className={styles.arrow} fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="m6.71677 40c-1.31021-2.736-3.39113-5.2794-6.242771-7.6301v-2.0231c1.233141.5781 2.312141 1.1561 3.236991 1.7341.92486.5395 1.69557 1.079 2.31214 1.6185v-33.6994h2.42775v33.6994c.6551-.5395 1.44509-1.079 2.36992-1.6185.9249-.578 1.9846-1.156 3.1792-1.7341v2.0231c-2.8131 2.3507-4.89402 4.8941-6.24276 7.6301z" fill="#000"/>
+          </svg>
+        </Link>
       </div>
-      <div className={styles.imageContainer}>
-        <img
-          className={styles.image}
-          src="https://thumb.tildacdn.com/tild6630-3432-4132-b435-616537396534/-/format/webp/collage_bigmac50year.jpg"
-          alt="georgy reznikov"
-        />
+      <div className={styles.right}>
+        <h2 className={styles.title}>Coffee Dip</h2>
+        <p className={styles.subTitle}>Research, Prototyping, Visual Design</p>
       </div>
-    </Link>
+    </div>
   );
 }
 

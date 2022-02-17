@@ -13,11 +13,11 @@
 }
 
 @mixin typo_h2 {
-  font-size: 36px;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 38px;
   line-height: 1;
   font-weight: 500;
   letter-spacing: 1.5px;
-  text-transform: uppercase;
 }
 
 @mixin typo_h3 {
@@ -34,9 +34,23 @@
   letter-spacing: 1px;
 }
 
-@mixin typo_text {
+@mixin typo_textS {
   font-size: 18px;
   line-height: 1.4;
   font-weight: 300;
   letter-spacing: 2px;
+}
+
+@mixin typo_textM {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 1;
+}
+
+@mixin typo_link {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 3px;
 }

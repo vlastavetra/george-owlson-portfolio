@@ -3,73 +3,44 @@
 
 .root {
   display: flex;
+  flex-direction: column;
+  width: 35%;
+  background-color: $color_dark_grey;
+  box-shadow: 16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
 
   @media screen and (max-width: $BP2_max) {
-
+    padding: 40px 20px 20px 40px;
 	}
 
   @media screen and (max-width: $BP3_max) {
-
+    padding: 40px 20px 20px 40px;
 	}
 
   @media screen and (min-width: $BP4_min) {
-    padding: 20px 20px 10px;
-	}
-}
-
-.left {
-  border-bottom: $border_1;
-  width: 65%;
-
-  @media screen and (min-width: $BP4_min) {
-    margin-right: 10px;
-	}
-}
-
-.right {
-  position: relative;
-  border-left: $border_1;
-  width: 35%;
-
-  @media screen and (min-width: $BP4_min) {
-    padding-left: 20px;
-    margin-bottom: 10px;
+    padding: 40px 20px 20px 40px;
 	}
 }
 
 .imageContainer {
   position: relative;
   overflow: hidden;
-  height: 200px;
-
-  @media screen and (min-width: $BP4_min) {
-    margin-bottom: 100px;
-	}
+  width: 50%;
+  height: 270px;
 }
 
 .image {
   position: absolute;
+  object-fit: fill;
   top: 0;
-  right: 0;
-  width: 40%;
+  left: 0;
+  width: 100%;
   border-radius: 150px;
-  opacity: 0.8;
 }
 
 .title {
   position: relative;
   display: flex;
   flex-direction: column;
-
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: -10px;
-    background-color: $color_black;
-    width: calc(100% + 10px);
-    height: 1px;
-  }
 }
 
 .titleName {
@@ -79,9 +50,7 @@
 }
 
 .titlePosition {
-  @include typo_text;
+  @include typo_textS;
   display: inline-block;
   padding-bottom: 10px;
 }
-
-.icon {}
