@@ -1,5 +1,111 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
 
 .root {
-  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  display: flex;
+}
+
+.leftSubsection {
+  position: relative;
+  overflow: hidden;
+  width: 35%;
+  padding: 0 20px;
+}
+
+.rightSubsection {
+  overflow: hidden;
+  width: 65%;
+  padding: 0 20px 0 40px;
+}
+
+.centerSubsection {
+  overflow: hidden;
+  width: 100%;
+  padding: 0 20px 60px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.projectTitle {
+  @include typo_h1_project;
+  margin-top: 72px;
+  color: $color_purple;
+}
+
+.description {
+  @include typo_textM_project;
+  display: inline-block;
+  color: $color_purple;
+  margin-bottom: 100px;
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+}
+
+.imageContainerFull {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 70%;
+}
+
+.imageFull {
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.imageHorisontal {
+  width: 100%;
+}
+
+.textModule {
+  margin-bottom: 60px;
+}
+
+.title {
+  @include typo_h2_project;
+  margin-bottom: 30px;
+}
+
+.text {
+  @include typo_textS_project;
+}
+
+.list {
+  padding-left: 20px;
+  @include typo_textS_project;
 }

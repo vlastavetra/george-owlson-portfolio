@@ -5,22 +5,42 @@
 }
 
 @mixin typo_h1 {
-  font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 38px;
   line-height: 1;
   letter-spacing: 1;
   font-weight: 300;
 }
 
+@mixin typo_h1_project {
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 @mixin typo_h2 {
-  font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 38px;
   line-height: 1;
   font-weight: 500;
   letter-spacing: 1.5px;
 }
 
+@mixin typo_h2_project {
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
 @mixin typo_h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@mixin typo_h3_project {
   font-size: 24px;
   line-height: 1;
   font-weight: 500;
@@ -41,6 +61,13 @@
   letter-spacing: 2px;
 }
 
+@mixin typo_textS_project {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
 @mixin typo_textM {
   font-size: 22px;
   line-height: 1.5;
@@ -48,9 +75,16 @@
   letter-spacing: 1;
 }
 
+@mixin typo_textM_project {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 2;
+}
+
 @mixin typo_link {
   font-size: 18px;
   line-height: 1.4;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 3px;
 }
