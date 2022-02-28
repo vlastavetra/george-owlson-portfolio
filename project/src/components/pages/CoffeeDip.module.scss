@@ -35,11 +35,11 @@
   padding: 0 20px 60px;
 }
 
-.logo {
+.button {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 40px;
+  left: 65px;
+  cursor: pointer;
 }
 
 .projectTitle {
@@ -94,15 +94,28 @@
 
 .textModule {
   margin-bottom: 60px;
+
+  p + h3 {
+    margin-top: 20px;
+  }
+
+  h2 + p, h2 + img, h2 + ul, h2 + h3 {
+    margin-top: 30px;
+  }
 }
 
 .title {
   @include typo_h2_project;
-  margin-bottom: 30px;
+}
+
+.subTitle {
+  @include typo_h3_project;
+  margin-bottom: 20px;
 }
 
 .text {
   @include typo_textS_project;
+  max-width: 900px;
 }
 
 .list {

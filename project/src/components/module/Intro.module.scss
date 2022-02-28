@@ -30,3 +30,7 @@
 .textContact {
   @include typo_textS;
 }
+
+.link {
+  text-decoration: underline;
+}

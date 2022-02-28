@@ -13,10 +13,10 @@ function Main() {
           <Header/>
         </section>
         <section className={styles.section}>
-          <Card id='1'/>
+          <Card id='divercity'/>
         </section>
         <section className={styles.section}>
-          <Card id='2'/>
+          <Card id='coffee-dip'/>
         </section>
       </div>
     </main>
