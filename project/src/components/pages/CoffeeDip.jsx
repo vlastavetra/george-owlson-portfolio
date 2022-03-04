@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import ProjectTitle from '../module/ProjectTitle';
 import styles from './CoffeeDip.module.scss';
 
 function Project() {
@@ -15,8 +16,11 @@ function Project() {
             </Link>
           </div>
           <div className={styles.rightSubsection}>
-            <h1 className={styles.projectTitle}>Coffee dip</h1>
-            <span className={styles.description}>Приложение для поиска интересных событий</span>
+            <ProjectTitle
+              title='Divercity'
+              description='Приложение для поиска интересных событий'
+              color='purple'
+            />
           </div>
         </section>
         <section className={styles.section}>
@@ -55,7 +59,6 @@ function Project() {
         </section>
         <section className={styles.section}>
           <div className={styles.leftSubsection}>
-
           </div>
           <div className={styles.rightSubsection}>
             <div className={styles.textModule}>

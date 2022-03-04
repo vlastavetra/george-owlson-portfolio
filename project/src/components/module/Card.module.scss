@@ -12,18 +12,14 @@
   justify-content: flex-end;
   align-items: baseline;
   padding: 20px;
-  width: 65%;
+  width: 70%;
 }
 
 .right {
   box-shadow: 16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
   background-color: $color_dark_grey;
+  width: 30%;
   padding: 40px;
-
-  @media (min-width: $BP4-min) {
-    width: 35%;
-    padding: 40px;
-  }
 }
 
 .text {
@@ -33,7 +29,7 @@
 
 .title {
   @include typo_h2;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
 }
 
 .subTitle {
@@ -69,6 +65,7 @@
 .link {
   @include typo_link;
   position: relative;
+  margin-top: 40px;
 }
 
 .arrow {

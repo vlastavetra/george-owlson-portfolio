@@ -13,10 +13,10 @@ function App() {
         <Route path="/" exact>
           <Main />
         </Route>
-        <Route path="/project-divercity" exact>
+        <Route path="/divercity" exact>
           <Divercity />
         </Route>
-        <Route path="/project-coffee-dip" exact>
+        <Route path="/coffe-dip" exact>
           <CoffeeDip />
         </Route>
         <Route>

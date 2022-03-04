@@ -8,6 +8,14 @@
 	font-stretch: 20% 151%;
 }
 
+@font-face {
+	font-family: 'Antonio';
+	src: url('../../public/fonts/Antonio-VariableFont_wght.ttf') format('ttf supports variations'),
+       url('../../public/fonts/Antonio-VariableFont_wght.ttf') format('fft-variations');
+	font-weight: 100 1000;
+	font-stretch: 20% 151%;
+}
+
 * {
   box-sizing: border-box;
 }
