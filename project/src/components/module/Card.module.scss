@@ -29,7 +29,7 @@
 
 .title {
   @include typo_h2;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .subTitle {
@@ -65,14 +65,22 @@
 .link {
   @include typo_link;
   position: relative;
-  margin-top: 40px;
+  padding: 20px 35px 0 0;
+
+  &:hover {
+    .arrow {
+      right: -5px;
+      transition: right .3s ease;
+    }
+  }
 }
 
 .arrow {
   position: absolute;
-  top: -6px;
-  right: -36px;
+  top: 13px;
+  right: 0;
   width: 14px;
   height: 40px;
   transform: rotate(-90deg);
+  transition: right .3s ease;
 }

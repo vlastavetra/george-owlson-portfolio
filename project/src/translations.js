@@ -27,7 +27,7 @@ const translations = {
       introImg: '',
     },
     {
-      id: 'coffe-dip',
+      id: 'coffee-dip',
       name: 'Coffe Dip',
       shortDescription: 'Приложение для заказа кофе',
       works: 'Research, Prototyping, Visual Design',

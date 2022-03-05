@@ -16,7 +16,7 @@ function App() {
         <Route path="/divercity" exact>
           <Divercity />
         </Route>
-        <Route path="/coffe-dip" exact>
+        <Route path="/coffee-dip" exact>
           <CoffeeDip />
         </Route>
         <Route>

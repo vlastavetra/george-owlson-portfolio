@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import cx from 'classnames';
 import ProjectTitle from '../module/ProjectTitle';
-import styles from './Divercity.module.scss';
+import styles from './Project.module.scss';
 
 function Project() {
   return (
@@ -69,18 +70,18 @@ function Project() {
         </section>
         <section className={styles.section}>
           <div className={styles.leftSubsection}>
-            <div className={styles.card}>
+            <div className={cx(styles.card, styles.textModule)}>
               <h3 className={styles.subTitle}>Feature</h3>
               <p>Smart search by events, easy filters.</p>
             </div>
           </div>
           <div className={styles.rightSubsection}>
             <div className={styles.cards}>
-              <div className={styles.card}>
+              <div className={cx(styles.card, styles.textModule)}>
                 <h3 className={styles.subTitle}>Cure for boredom</h3>
                 <p>Когда я хочу где-нибудь развлечься, я хочучтобы приложение подобрало подходящее мне событие или место, чтобы я остался доволен выбором и не искал события в других местах.</p>
               </div>
-              <div className={styles.card}>
+              <div className={cx(styles.card, styles.textModule)}>
                 <h3 className={styles.subTitle}>Occasion</h3>
                 <p>Когда мне нужно сводить девушку/парняна свидание, я хочу чтобы приложение показало хороший список с самыми модными и популярными ресторанами, тогда у моего спутника останется хорошее впечатление о моём вкусе.</p>
               </div>
@@ -89,14 +90,14 @@ function Project() {
         </section>
         <section className={styles.section}>
           <div className={styles.leftSubsection}>
-            <div className={styles.card}>
+            <div className={cx(styles.card, styles.textModule)}>
               <h3 className={styles.subTitle}>Feature</h3>
               <p>Simple creation form with enough fields.</p>
             </div>
           </div>
           <div className={styles.rightSubsection}>
             <div className={styles.cards}>
-              <div className={styles.card}>
+              <div className={cx(styles.card, styles.textModule)}>
                 <h3 className={styles.subTitle}>Creating an event</h3>
                 <p>Когда я хочу организовать событие/мероприятие, мне нужен простойи понятный функционал в приложении, чтобы не бросить это дело на пол пути или не уйти в другое приложение.</p>
               </div>
@@ -105,14 +106,14 @@ function Project() {
         </section>
         <section className={styles.section}>
           <div className={styles.leftSubsection}>
-            <div className={styles.card}>
+            <div className={cx(styles.card, styles.textModule)}>
               <h3 className={styles.subTitle}>Feature</h3>
               <p>Event sharing with extra information.</p>
             </div>
           </div>
           <div className={styles.rightSubsection}>
             <div className={styles.cards}>
-              <div className={styles.card}>
+              <div className={cx(styles.card, styles.textModule)}>
                 <h3 className={styles.subTitle}>Sharing</h3>
                 <p>Когда я хочу позвать друзей на концерт, который я нашёл в приложении, я хочу чтоб была возможность поделиться мероприятием, чтоб они узнали о нём всю информацию.</p>
               </div>
@@ -121,14 +122,14 @@ function Project() {
         </section>
         <section className={styles.section}>
           <div className={styles.leftSubsection}>
-            <div className={styles.card}>
+            <div className={cx(styles.card, styles.textModule)}>
               <h3 className={styles.subTitle}>Feature</h3>
               <p>Stories on main page.</p>
             </div>
           </div>
           <div className={styles.rightSubsection}>
             <div className={styles.cards}>
-              <div className={styles.card}>
+              <div className={cx(styles.card, styles.textModule)}>
                 <h3 className={styles.subTitle}>News</h3>
                 <p>Когда я захожу в приложение, я хочу видеть сториз/новости о новых местах или мероприятиях, которые могли бы меня заинтересовать.</p>
               </div>
@@ -213,7 +214,7 @@ function Project() {
           <div className={styles.leftSubsection} style={{paddingTop: '100px'}}>
           </div>
           <div className={styles.rightSubsection} style={{paddingTop: '100px'}}>
-            <div className={styles.twoImg}>
+            <div className={styles.imgs}>
               <div>
                 <h3 className={styles.centerTitle}>Autorization</h3>
                 <img
@@ -246,7 +247,7 @@ function Project() {
           </div>
           <div className={styles.rightSubsection} style={{paddingTop: '100px'}}>
             <div className={styles.textModule}>
-              <h2 className={styles.title}>Main page + Event page</h2>
+              <h3 className={styles.title}>Main page + Event page</h3>
               <p className={styles.text}>
                 События в поиске оформлены в форме ярких карточек. Поиск доступен в виде списка и на карте.
               </p>
@@ -263,7 +264,7 @@ function Project() {
           </div>
           <div className={styles.rightSubsection} style={{paddingTop: '100px', paddingBottom: '100px'}}>
             <div className={styles.textModule}>
-              <h2 className={styles.title}>Search</h2>
+              <h3 className={styles.title}>Search</h3>
               <p className={styles.text}>
                 События в поиске оформлены в форме ярких карточек. <br/>Поиск доступен в виде списка и на карте.
               </p>
