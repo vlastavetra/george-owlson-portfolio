@@ -4,37 +4,51 @@
 .root {
   display: flex;
   flex-direction: column;
-  width: 30%;
   background-color: $color_dark_grey;
-  box-shadow: 16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
+
+  width: 100%;
+  order: -1;
 
   @media screen and (max-width: $BP2_max) {
-    padding: 40px 20px 20px 40px;
+    padding: 20px;
 	}
 
-  @media screen and (max-width: $BP3_max) {
+  @media screen and (min-width: $BP3_min) {
+    width: 30%;
     padding: 40px 20px 20px 40px;
+    order: 1;
+    box-shadow: 16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
 	}
 
   @media screen and (min-width: $BP4_min) {
     padding: 40px 20px 20px 40px;
 	}
-}
 
-.imageContainer {
-  position: relative;
-  overflow: hidden;
-  width: 50%;
-  height: 270px;
+  @media screen and (min-width: $BP5_min) {
+    width: 35%;
+	}
 }
 
 .image {
-  position: absolute;
-  object-fit: fill;
-  top: 0;
-  left: 0;
-  width: 100%;
+  display: block;
+  margin-bottom: 20px;
   border-radius: 150px;
+
+  @media screen and (max-width: $BP1_max) {
+    width: 50%;
+	}
+
+  @media screen and (min-width: $BP2_min) {
+    width: 30%;
+	}
+
+  @media screen and (min-width: $BP3_min) {
+    width: 70%;
+  }
+
+  @media screen and (min-width: $BP5_min) {
+    width: 50%;
+	}
 }
 
 .title {
@@ -46,7 +60,7 @@
 .titleName {
   @include typo_h1;
   display: inline-block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .titlePosition {

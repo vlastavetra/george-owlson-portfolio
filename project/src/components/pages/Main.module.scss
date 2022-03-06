@@ -14,8 +14,14 @@
 
   .section {
     display: flex;
+    flex-direction: column;
+    overflow: hidden;
     width: 100vw;
     height: 100vh;
     scroll-snap-align: start;
+
+    @media screen and (min-width: $BP3_min) {
+      flex-direction: row;
+    }
   }
 }

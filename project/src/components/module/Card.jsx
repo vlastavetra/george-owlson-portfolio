@@ -16,13 +16,6 @@ function Card({id, name, mainDescription, works}) {
               alt="img"
             />
           </div>
-          <div className={styles.imageContainer}>
-            <img
-              className={styles.image}
-              src="https://static.tildacdn.com/tild3339-6337-4565-a132-303162383162/mockup_PSD_07_flip.png"
-              alt="img"
-            />
-          </div>
         </div>
         <p className={styles.text}>
           {mainDescription}

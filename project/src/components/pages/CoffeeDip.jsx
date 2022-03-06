@@ -199,6 +199,39 @@ function Project() {
             </div>
           </div>
         </section>
+        <section className={styles.section}>
+          <div className={styles.leftSubsection} style={{paddingTop: '100px', paddingBottom: '100px'}}>
+          </div>
+          <div className={styles.rightSubsection} style={{paddingTop: '100px', paddingBottom: '100px'}}>
+            <div className={styles.textModule}>
+              <h2 className={styles.title}>UI Kit</h2>
+            </div>
+            <img
+              className={styles.imageHorisontal}
+              src="https://habrastorage.org/webt/dl/1f/ss/dl1fsssj44bssgmyhgcdjctsirq.png"
+              alt="divercity"
+              style={{paddingBottom: '30px'}}
+            />
+            <img
+              className={styles.imageHorisontal}
+              src="https://habrastorage.org/webt/gg/bn/sh/ggbnshkuxvtgbh00wfa07usrngm.png"
+              alt="divercity"
+              style={{paddingBottom: '30px'}}
+            />
+            <img
+              className={styles.imageHorisontal}
+              src="https://habrastorage.org/webt/rp/pa/x4/rppax4nyjt3gkqqwrtusq_siqbk.png"
+              alt="divercity"
+              style={{paddingBottom: '30px'}}
+            />
+            <img
+              className={styles.imageHorisontal}
+              src="https://habrastorage.org/webt/jr/xb/xf/jrxbxfc-dw2gragreasi7crdkja.png"
+              alt="divercity"
+              style={{paddingBottom: '30px'}}
+            />
+          </div>
+        </section>
       </div>
     </main>
   );

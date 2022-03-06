@@ -4,7 +4,7 @@ const translations = {
       id: 'divercity',
       name: 'Divercity',
       shortDescription: 'Приложение для поиска интересных событий',
-      works: 'Research, Prototyping, Visual Design',
+      works: 'Research, Prototyping, Visual\u00A0Design',
       mainDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ipsum dolor sit amet, consectetur adipiscing elit.',
       introText: [
         {
@@ -30,7 +30,7 @@ const translations = {
       id: 'coffee-dip',
       name: 'Coffe Dip',
       shortDescription: 'Приложение для заказа кофе',
-      works: 'Research, Prototyping, Visual Design',
+      works: 'Research, Prototyping, Visual\u00ADesign',
       mainDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ipsum dolor sit amet, consectetur adipiscing elit.',
       introText: [
         {
