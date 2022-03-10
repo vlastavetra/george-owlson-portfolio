@@ -2,6 +2,7 @@
 @import '../../styles/mixin.scss';
 
 .root {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: $color_dark_grey;
@@ -67,4 +68,16 @@
   @include typo_textS;
   display: inline-block;
   padding-bottom: 10px;
+}
+
+.tip {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+}
+
+.arrow {
+  width: 14px;
+  height: 40px;
+  margin-right: 20px;
 }

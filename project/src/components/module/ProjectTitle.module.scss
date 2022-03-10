@@ -3,12 +3,10 @@
 
 .projectTitle {
   @include typo_h1_project;
-  margin-top: 80px;
   margin-bottom: 10px;
 }
 
 .description {
   @include typo_textM_project;
   display: inline-block;
-  margin-bottom: 100px;
 }

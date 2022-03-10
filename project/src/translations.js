@@ -31,7 +31,7 @@ const translations = {
       name: 'Coffe Dip',
       shortDescription: 'Приложение для заказа кофе',
       works: 'Research, Prototyping, Visual\u00ADesign',
-      mainDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ipsum dolor sit amet, consectetur adipiscing elit.',
+      mainDescription: 'Mobile application for ordering coffee and snacks with pick up from the coffee shop without queuing.',
       introText: [
         {
           title: 'Проблема',

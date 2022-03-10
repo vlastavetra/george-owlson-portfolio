@@ -42,6 +42,7 @@
 }
 
 .right {
+  position: relative;
   background-color: $color_dark_grey;
   width: 100%;
   order: -1;
@@ -116,11 +117,13 @@
   @include typo_link;
   position: relative;
   padding: 20px 35px 0 0;
+  transition: all .3s ease;
 
   &:hover {
+    letter-spacing: 2.5px;
     .arrow {
-      right: -5px;
-      transition: right .3s ease;
+      right: -10px;
+      transition: all .3s ease;
     }
   }
 }
@@ -128,9 +131,9 @@
 .arrow {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: -5px;
   width: 14px;
   height: 40px;
-  transform: rotate(-90deg) translateX(55%);
-  transition: right .3s ease;
+  transform: rotate(-90deg) translateX(70%);
+  transition: all .3s ease;
 }
