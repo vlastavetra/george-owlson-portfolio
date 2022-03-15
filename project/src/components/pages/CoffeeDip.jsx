@@ -34,7 +34,7 @@ function Project() {
         </SmallSubsection>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
-            <h2 className={styles.title}>Issue</h2>
+            <h2 className={styles.title}>Problem</h2>
             <p className={styles.text}>
               A coffee shop is opening soon for people who love delicious coffee, are always in a hurry and don&apos;t want to waste time by standing in queues
             </p>
@@ -48,9 +48,9 @@ function Project() {
           <div className={styles.textModule}>
             <h2 className={styles.title}>Conditions</h2>
             <ul className={styles.list}>
-              <li>User path from start the application to to the order&apos;s confirmation as short as possible;</li>
-              <li>Repeat the previous order available in one click;</li>
-              <li>User can set pickup time.</li>
+              <li>User path from start the application to to the order&apos;s confirmation as short as possible</li>
+              <li>Repeat the previous order available in one click</li>
+              <li>User can set pickup time</li>
             </ul>
           </div>
         </BigSubsection>
