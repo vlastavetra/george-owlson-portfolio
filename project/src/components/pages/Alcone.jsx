@@ -29,7 +29,7 @@ function Project() {
         <SmallSubsection style={{paddingTop: '100px'}}>
           <img
             className={styles.imageVertical}
-            src="https://thumb.tildacdn.com/tild6664-3931-4166-b334-663133643536/-/format/webp/Welcome_1.png"
+            src="https://habrastorage.org/webt/w6/n1/ka/w6n1kak8lj1wwe1gh4bahh2kpxq.jpeg"
             alt="divercity"
           />
         </SmallSubsection>
@@ -138,33 +138,39 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection style={{paddingTop: '100px'}}>
+          <div className={styles.textModule}>
+            <p className={styles.singleText}>
+            A survey was conducted of 50 people aged from 18 to 38 years old, where we studied the main criteria for choosing events, as well as additional insights that affect a person&apos;s desire to visit a place or event.
+            </p>
+          </div>
+        </SmallSubsection>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Polling by event selection criteria</h2>
-            <p className={styles.singleText}>
-              A survey was conducted of 50 people aged from 18 to 38 years old, where we studied the main criteria for choosing events, as well as additional insights that affect a person&apos;s desire to visit a place or event.
-            </p>
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild3035-3034-4262-a263-646532363164/-/format/webp/Frame_5_1.png"
+            src="https://habrastorage.org/webt/cy/4p/wy/cy4pwyai89huwrxmguh-ojdz-8a.png"
             alt="divercity"
           />
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection style={{paddingTop: '100px'}}>
+          <div className={styles.textModule}>
+            <p className={styles.singleText}>
+            The hardest part was creating a simple user flow. It is very important that user does not get lost in the application and quickly finds the necessary sections. After polls, A-B testing, the user&apos;s path acquired a simple and functional form that solved the task.
+            </p>
+          </div>
+        </SmallSubsection>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Userflow</h2>
-            <p className={styles.singleText}>
-              The hardest part was creating a simple user flow. It is very important that user does not get lost in the application and quickly finds the necessary sections. After polls, A-B testing, the user&apos;s path acquired a simple and functional form that solved the task.
-            </p>
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6537-3864-4263-b964-336437326631/-/format/webp/Group_2.png"
+            src="https://habrastorage.org/webt/_n/wk/rr/_nwkrr0m7m3s3sdoaqqvr0msf3s.png"
             alt="divercity"
             style={{paddingRight: '100px'}}
           />
@@ -178,7 +184,7 @@ function Project() {
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild3730-6231-4834-b939-643766666161/-/format/webp/divercity_proto_2.png"
+            src="https://habrastorage.org/webt/sf/ho/oy/sfhooymczezxh5pqdshixayvhtc.png"
             alt="divercity"
           />
         </BigSubsection>
@@ -199,7 +205,7 @@ function Project() {
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6463-6437-4233-b736-353966346231/-/format/webp/Group_161_1.png"
+            src="https://habrastorage.org/webt/yb/up/bs/ybupbszo7rrvd4b9wh28gl4lfma.png"
             alt="divercity"
             style={{paddingRight: '250px'}}
           />
@@ -208,22 +214,53 @@ function Project() {
       <section className={styles.section}>
         <SmallSubsection style={{paddingTop: '100px'}}/>
         <BigSubsection style={{paddingTop: '100px'}}>
+          <div className={styles.imgs}>
+            <div>
+              <h3 className={styles.centerTitle}>Autorization</h3>
+              <img
+                className={styles.imageHorisontal}
+                src="https://habrastorage.org/webt/mr/gx/lh/mrgxlh6xevxlrjh0pot7ud32omq.png"
+                alt="divercity"
+              />
+            </div>
+            <div>
+              <h3 className={styles.centerTitle}>User profile</h3>
+              <img
+                className={styles.imageHorisontal}
+                src="https://habrastorage.org/webt/z7/sl/3a/z7sl3affcxhwenmonzzvfhddjou.png"
+                alt="divercity"
+              />
+            </div>
+            <div>
+              <h3 className={styles.centerTitle}>Event creating form</h3>
+              <img
+                className={styles.imageHorisontal}
+                src="https://habrastorage.org/webt/pn/or/gy/pnorgyhiu0jesuf8yp14mxdpekg.png"
+                alt="divercity"
+              />
+            </div>
+          </div>
+        </BigSubsection>
+      </section>
+      <section className={styles.section}>
+        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
-            <h3 className={styles.title}>Feed + Event page</h3>
+            <h3 className={styles.title}>Main page + Event page</h3>
             <p className={styles.text}>
             The main page has a stories with news, relevant events and recommendations. The cards show how many people are going to attend the event. On the event page, all the necessary information with the exact time, location, description and map.
             </p>
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild3431-3666-4733-b964-383033396132/-/format/webp/Group_163.png"
+            src="https://habrastorage.org/webt/y4/xy/qc/y4xyqcfik2oyrzrx8jjkpothib8.png"
             alt="divercity"
           />
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
-        <BigSubsection style={{paddingTop: '100px'}}>
+        <SmallSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}/>
+        <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
           <div className={styles.textModule}>
             <h3 className={styles.title}>Search</h3>
             <p className={styles.text}>
@@ -232,40 +269,9 @@ function Project() {
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild3563-6165-4965-a339-343362306132/-/format/webp/Group_162.png"
+            src="https://habrastorage.org/webt/ye/ha/9h/yeha9h1cgko8o470mltuh8z74ls.png"
             alt="divercity"
           />
-        </BigSubsection>
-      </section>
-      <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}/>
-        <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
-          <div className={styles.imgs}>
-            <div>
-              <h3 className={styles.centerTitle}>Autorization</h3>
-              <img
-                className={styles.imageHorisontal}
-                src="https://thumb.tildacdn.com/tild3231-6265-4366-b236-616332613736/-/format/webp/_1.png"
-                alt="divercity"
-              />
-            </div>
-            <div>
-              <h3 className={styles.centerTitle}>User profile</h3>
-              <img
-                className={styles.imageHorisontal}
-                src="https://thumb.tildacdn.com/tild3863-6265-4035-a630-383539363132/-/format/webp/_1.png"
-                alt="divercity"
-              />
-            </div>
-            <div>
-              <h3 className={styles.centerTitle}>Event creating form</h3>
-              <img
-                className={styles.imageHorisontal}
-                src="https://thumb.tildacdn.com/tild6564-6338-4362-a239-313636373432/-/format/webp/__1.png"
-                alt="divercity"
-              />
-            </div>
-          </div>
         </BigSubsection>
       </section>
     </main>

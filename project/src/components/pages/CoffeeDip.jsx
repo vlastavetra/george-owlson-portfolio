@@ -28,7 +28,7 @@ function Project() {
         <SmallSubsection style={{paddingTop: '100px'}}>
           <img
             className={styles.imageVertical}
-            src="https://habrastorage.org/webt/g6/38/vi/g638vi5ntk1exww4sjqulmc3wu8.png"
+            src="https://thumb.tildacdn.com/tild6361-6464-4532-b034-363366323433/-/format/webp/Welcome.png"
             alt="divercity"
           />
         </SmallSubsection>

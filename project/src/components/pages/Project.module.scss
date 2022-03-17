@@ -13,28 +13,26 @@
 
 .link {
   @include typo_link;
-  position: relative;
-  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
   transition: all .3s ease;
 
   &:hover {
-    padding-left: 30px;
-    letter-spacing: 2.5px;
     .arrow {
-      left: -10px;
+      margin-left: -10px;
+      margin-right: 40px;
       transition: all .3s ease;
     }
   }
 }
 
 .arrow {
-  position: absolute;
-  top: -40%;
-  left: 0;
   width: 14px;
   height: 40px;
+  margin-right: 30px;
   transform: rotate(90deg);
-  transition: left .3s ease;
+  transition: all .3s ease;
 }
 
 .imageVertical {
