@@ -178,7 +178,7 @@ function Project() {
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild3730-6231-4834-b939-643766666161/-/format/webp/divercity_proto_2.png"
+            src="https://thumb.tildacdn.com/tild6164-3862-4532-b535-363933343938/-/format/webp/Divercity_prototype.png"
             alt="divercity"
           />
         </BigSubsection>
