@@ -24,14 +24,14 @@ const translations = {
           ],
         },
       ],
-      introImg: '',
+      introImg: 'https://thumb.tildacdn.com/tild6464-3237-4932-b436-313663306231/-/format/webp/divercity_cover_1.png',
     },
     {
       id: 'coffee-dip',
       name: 'Coffe Dip',
       shortDescription: 'Приложение для заказа кофе',
-      works: 'Research, Prototyping, Visual\u00ADesign',
-      mainDescription: 'Mobile application for ordering coffee and snacks with pick up from the coffee shop without queuing.',
+      works: 'Research, Prototyping, Visual Design',
+      mainDescription: 'An application for people who love delicious coffee, are always in a hurry and don\'t want to waste time by standing in queues',
       introText: [
         {
           title: 'Problem',
@@ -50,7 +50,7 @@ const translations = {
           ],
         },
       ],
-      introImg: '',
+      introImg: 'https://thumb.tildacdn.com/tild3138-6338-4231-a139-633035613563/-/format/webp/CoffeeDip_cover.png',
     },
     {
       id: 'alcone',

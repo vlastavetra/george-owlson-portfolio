@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import translations from '../../translations';
 import styles from '../module/Card.module.scss';
 
-function Card({id, name, mainDescription, works}) {
+function Card({id, name, mainDescription, works, introImg}) {
   return (
     <div className={styles.root}>
       <div className={styles.left}>
@@ -12,7 +12,7 @@ function Card({id, name, mainDescription, works}) {
           <div className={styles.imageContainer}>
             <img
               className={styles.image}
-              src="https://static.tildacdn.com/tild3339-6337-4565-a132-303162383162/mockup_PSD_07_flip.png"
+              src={introImg}
               alt="img"
             />
           </div>
@@ -40,6 +40,7 @@ Card.propTypes = {
   name: PropTypes.string.isRequired,
   mainDescription: PropTypes.string.isRequired,
   works: PropTypes.string.isRequired,
+  introImg: PropTypes.string.isRequired,
 };
 
 export default Card;

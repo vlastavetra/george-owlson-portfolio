@@ -6,8 +6,11 @@ function Intro() {
     <section className={styles.root}>
       <p className={styles.text}>
         Hi 🖖🏻 <br/>
-        This is my portfolio. Here you can find my favorite works: apps, web sites and graphic design.<br/>
-        I have a lot of skills in different design directions and 8 years of expirience, but now I’m focusing on UI design.
+        My name is George.
+        I&apos;m a multidisciplinary designer with 8 year experience.
+        Last years I specialize in UX/UI design for digital services and products.
+        Below you can find some of my works.
+
       </p>
       <p className={styles.textContact}>
         You always can write&nbsp;me in&nbsp;
