@@ -53,11 +53,11 @@ const translations = {
       introImg: 'https://thumb.tildacdn.com/tild3138-6338-4231-a139-633035613563/-/format/webp/CoffeeDip_cover.png',
     },
     {
-      id: 'alcone',
+      id: 'alcon',
       name: 'Alcon',
       shortDescription: 'Web site',
       works: 'Prototyping, Visual\u00ADesign',
-      mainDescription: 'Contact Lens.',
+      mainDescription: 'Contact Lens https://mamcocky-cz.myalcon.com/',
       introText: [
         {
           title: 'Problem',

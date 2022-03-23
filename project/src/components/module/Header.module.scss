@@ -71,11 +71,16 @@
 }
 
 .tip {
-  position: absolute;
-  bottom: 30px;
-  left: 40px;
-  display: flex;
-  align-items: center;
+  display: none;
+
+  @media screen and (min-width: $BP3_min) {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+	}
 }
 
 .arrow {
