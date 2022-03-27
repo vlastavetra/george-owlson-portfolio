@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import cx from 'classnames';
 import ProjectTitle from '../module/ProjectTitle';
 import SmallSubsection from '../module/SmallSubsection';
 import BigSubsection from '../module/BigSubsection';
@@ -21,7 +20,7 @@ function Project() {
         <BigSubsection style={{paddingTop: '80px'}}>
           <ProjectTitle
             title='Alcon'
-            description='Website https://mamcocky-cz.myalcon.com/'
+            description='Design of the Czech site Alcon'
           />
         </BigSubsection>
       </section>
@@ -30,11 +29,17 @@ function Project() {
         </SmallSubsection>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
-            <h2 className={styles.title}>Main page</h2>
+            <h2 className={styles.title}>About</h2>
+            <p className={styles.text}>
+            The task is to develop an information site where users can learn everything about lenses and care products for them.
+            I was engaged in the design of the site and graphic elements.
+            </p>
+            <h3 className={styles.subTitle}>Main page</h3>
           </div>
+
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6264-6333-4730-a232-306536333137/-/format/webp/Loyalty_page_v3.jpg"
+            src="https://thumb.tildacdn.com/tild6133-3166-4763-b462-366130323537/-/format/webp/Mainpage_Alcon_UPD_r.jpg"
             alt="divercity"
           />
         </BigSubsection>
@@ -44,7 +49,7 @@ function Project() {
         </SmallSubsection>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
-            <h2 className={styles.title}>Lens order form</h2>
+            <h3 className={styles.subTitle}>Lens order form</h3>
           </div>
           <img
             className={styles.imageHorisontal}
@@ -57,7 +62,7 @@ function Project() {
         <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
-            <h2 className={styles.title}>FAQ</h2>
+            <h3 className={styles.subTitle}>FAQ</h3>
           </div>
           <img
             className={styles.imageHorisontal}
@@ -70,7 +75,7 @@ function Project() {
         <SmallSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}/>
         <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
           <div className={styles.textModule}>
-            <h2 className={styles.title}>Personal account, sales statistics</h2>
+            <h3 className={styles.subTitle}>Admin dashboard</h3>
           </div>
           <img
             className={styles.imageHorisontal}
