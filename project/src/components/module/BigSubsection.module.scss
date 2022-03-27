@@ -4,7 +4,12 @@
 .root {
   position: relative;
   overflow: hidden;
-  width: 70%;
-  padding: 0 40px;
+  width: 100%;
+  padding: 0 20px;
   background-color: $color_dark_grey;
+
+  @media screen and (min-width: $BP3_min) {
+    width: 70%;
+    padding: 0 40px;
+  }
 }

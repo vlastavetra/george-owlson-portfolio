@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
-  height: 60%;
+  height: 65%;
 
   @media screen and (min-width: $BP2_min) {
     width: 70%;
@@ -99,7 +99,11 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 60%;
+  padding-top: 65%;
+
+  @media screen and (min-width: $BP2_min) {
+    padding-top: 70%;
+	}
 
   @media screen and (min-width: $BP3_min) {
     padding-top: 50%;

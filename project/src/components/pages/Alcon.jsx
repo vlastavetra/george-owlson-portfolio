@@ -25,8 +25,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}>
-        </SmallSubsection>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>About</h2>
@@ -45,8 +44,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}>
-        </SmallSubsection>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h3 className={styles.subTitle}>Lens order form</h3>
@@ -72,7 +70,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
           <div className={styles.textModule}>
             <h3 className={styles.subTitle}>Admin dashboard</h3>

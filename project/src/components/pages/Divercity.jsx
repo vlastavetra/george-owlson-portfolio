@@ -58,8 +58,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}>
-        </SmallSubsection>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Job stories</h2>
@@ -124,7 +123,7 @@ function Project() {
       <section className={styles.section}>
         <SmallSubsection>
           <div className={cx(styles.card, styles.textModule)}>
-            <h3 className={styles.subTitle}>Feature</h3>
+            <h3 className={styles.subTitle}>To do</h3>
             <p>Add stories on main page.</p>
           </div>
         </SmallSubsection>
@@ -138,7 +137,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Polling by event selection criteria</h2>
@@ -154,7 +153,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Userflow</h2>
@@ -206,7 +205,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h3 className={styles.title}>Feed + Event page</h3>
@@ -222,7 +221,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h3 className={styles.title}>Search</h3>
@@ -238,7 +237,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
           <div className={styles.imgs}>
             <div>

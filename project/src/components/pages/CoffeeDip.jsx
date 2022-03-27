@@ -56,7 +56,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '60px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '60px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Customer Journey Map</h2>
@@ -77,7 +77,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Userflow</h2>
@@ -131,7 +131,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h3 className={styles.title}>Choose of coffee shop</h3>
@@ -151,7 +151,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Main page + coffee constructor</h2>
@@ -194,7 +194,7 @@ function Project() {
         </BigSubsection>
       </section>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}/>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>UI Kit</h2>
