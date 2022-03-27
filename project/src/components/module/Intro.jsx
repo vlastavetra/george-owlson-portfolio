@@ -9,7 +9,7 @@ function Intro() {
         My name is George.
         I&apos;m a multidisciplinary designer with 8 year experience.
         Last years I specialize in UX/UI design for digital services and products.
-        Below you can find some of my works.
+        Below you can find some of&nbsp;my&nbsp;works.
 
       </p>
       <p className={styles.textContact}>

@@ -7,10 +7,11 @@
   flex-direction: column;
   justify-content: flex-end;
   width: 100%;
-  height: 100%;
+  height: 45%;
 
   @media screen and (min-width: $BP3_min) {
     width: 70%;
+    height: 100%;
   }
 
   @media screen and (max-width: $BP2_max) {
