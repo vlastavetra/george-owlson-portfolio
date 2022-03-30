@@ -20,7 +20,7 @@ function Project() {
         <BigSubsection style={{paddingTop: '80px'}}>
           <ProjectTitle
             title='Coffee Dip'
-            description='Mobile app for ordering coffee to go'
+            description='Mobile app for ordering coffee to go'
           />
         </BigSubsection>
       </section>
@@ -163,10 +163,9 @@ function Project() {
             </p>
           </div>
           <img
-            className={styles.imageHorisontal}
+            className={styles.imageVertical}
             src="https://habrastorage.org/webt/uf/st/tv/ufsttvvjecucwmgxncqn_3mwloc.png"
             alt="divercity"
-            style={{paddingRight: '30%'}}
           />
         </BigSubsection>
       </section>

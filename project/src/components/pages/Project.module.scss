@@ -44,6 +44,10 @@
   display: block;
   width: 80%;
   margin: 0 auto;
+
+  @media screen and (min-width: $BP3_min) {
+    margin: 0;
+  }
 }
 
 .imageHorisontal {
@@ -52,8 +56,13 @@
 
 .imgs {
   display: grid;
-  grid-template-columns: repeat(3, calc(90% / 3));
-  gap: 5%;
+  grid-template-columns: 1fr;
+  gap: 60px;
+
+  @media screen and (min-width: $BP2_min) {
+    grid-template-columns: repeat(3, calc(90% / 3));
+    gap: 5%;
+  }
 }
 
 .textModule {
@@ -85,7 +94,7 @@
 
 .text {
   @include typo_textS_project;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .singleTitleWr {
@@ -101,7 +110,7 @@
 
 .singleText {
   @include typo_textS_project;
-  max-width: 900px;
+  max-width: 1000px;
   margin-top: 105px;
 }
 
@@ -138,6 +147,7 @@
   padding: 30px;
   margin: 15px 0px 60px;
   border-radius: 25px;
+  max-width: 580px;
 
   -webkit-box-shadow: 1px 1px 16px 1px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 1px 1px 16px 1px rgba(34, 60, 80, 0.2);

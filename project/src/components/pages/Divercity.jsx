@@ -197,10 +197,9 @@ function Project() {
             </p>
           </div>
           <img
-            className={styles.imageHorisontal}
+            className={styles.imageVertical}
             src="https://thumb.tildacdn.com/tild3635-3765-4439-b065-633834663436/-/format/webp/Filters.png"
             alt="divercity"
-            style={{paddingRight: '250px'}}
           />
         </BigSubsection>
       </section>
