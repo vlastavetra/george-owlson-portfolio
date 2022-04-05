@@ -9,15 +9,16 @@ import styles from './Project.module.scss';
 function Project() {
   return (
     <main className={styles.root}>
+      <div className={styles.fixed}>
+        <Link className={styles.link} to={'/'}>
+          <svg className={styles.arrow} fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="m6.71677 40c-1.31021-2.736-3.39113-5.2794-6.242771-7.6301v-2.0231c1.233141.5781 2.312141 1.1561 3.236991 1.7341.92486.5395 1.69557 1.079 2.31214 1.6185v-33.6994h2.42775v33.6994c.6551-.5395 1.44509-1.079 2.36992-1.6185.9249-.578 1.9846-1.156 3.1792-1.7341v2.0231c-2.8131 2.3507-4.89402 4.8941-6.24276 7.6301z" fill="#000"/>
+          </svg>
+          Back to main
+        </Link>
+      </div>
       <section className={styles.section}>
-        <SmallSubsection style={{paddingTop: '40px'}}>
-          <Link className={styles.link} to={'/'}>
-            <svg className={styles.arrow} fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="m6.71677 40c-1.31021-2.736-3.39113-5.2794-6.242771-7.6301v-2.0231c1.233141.5781 2.312141 1.1561 3.236991 1.7341.92486.5395 1.69557 1.079 2.31214 1.6185v-33.6994h2.42775v33.6994c.6551-.5395 1.44509-1.079 2.36992-1.6185.9249-.578 1.9846-1.156 3.1792-1.7341v2.0231c-2.8131 2.3507-4.89402 4.8941-6.24276 7.6301z" fill="#000"/>
-            </svg>
-            Back to main
-          </Link>
-        </SmallSubsection>
+        <SmallSubsection/>
         <BigSubsection style={{paddingTop: '80px'}}>
           <ProjectTitle
             title='Divercity'
@@ -27,33 +28,31 @@ function Project() {
       </section>
       <section className={styles.section}>
         <SmallSubsection style={{paddingTop: '100px'}}>
-          <img
-            className={styles.imageVertical}
-            src="https://thumb.tildacdn.com/tild6664-3931-4166-b334-663133643536/-/format/webp/Welcome_1.png"
-            alt="divercity"
-          />
         </SmallSubsection>
         <BigSubsection style={{paddingTop: '100px'}}>
-          <div className={styles.textModule}>
-            <h2 className={styles.title}>Problem</h2>
-            <p className={styles.text}>
-            A huge number of events take place daily, dozens of restaurants open.
-            For many people, finding leisure is a problem and every day they spend hours thinking about where to eat or where to go, and in the end they often stay at home.
-            </p>
-          </div>
-          <div className={styles.textModule}>
-            <h2 className={styles.title}>Idea</h2>
-            <p className={styles.text}>
-            Create an application that helps you find something to do in the evening and consider all the possible factors that can affect this: the user&apos;s mood, his preferences, the amount of free time, financial possibilities.
-            </p>
-          </div>
-          <div className={styles.textModule}>
-            <h2 className={styles.title}>Conditions</h2>
-            <ul className={styles.list}>
-              <li>Make userflow simple and understandable to a user of any age, as there is no age limit for the application</li>
-              <li>Make a convenient search and good filtering of events (time, place, category)</li>
-              <li>Add the ability to create your own events</li>
-            </ul>
+          <div className={styles.twoCollumn}>
+            <div className={styles.textModule}>
+              <h2 className={styles.title}>Problem</h2>
+              <p className={styles.text}>
+              A huge number of events take place daily, dozens of restaurants open.
+              For many people, finding leisure is a problem and every day they spend hours thinking about where to eat or where to go, and in the end they often stay at home.
+              </p>
+              <h2 className={styles.title}>Idea</h2>
+              <p className={styles.text}>
+              Create an application that helps you find something to do in the evening and consider all the possible factors that can affect this: the user&apos;s mood, his preferences, the amount of free time, financial possibilities.
+              </p>
+              <h2 className={styles.title}>Conditions</h2>
+              <ul className={styles.list}>
+                <li>Make userflow simple and understandable to a user of any age, as there is no age limit for the application</li>
+                <li>Make a convenient search and good filtering of events (time, place, category)</li>
+                <li>Add the ability to create your own events</li>
+              </ul>
+            </div>
+            <img
+              className={styles.imageHorisontal}
+              src="https://thumb.tildacdn.com/tild6664-3931-4166-b334-663133643536/-/format/webp/Welcome_1.png"
+              alt="divercity"
+            />
           </div>
         </BigSubsection>
       </section>
@@ -66,72 +65,46 @@ function Project() {
               5 job stories were compiled, which formed an idea of the required functions and the further development of the application.
             </p>
           </div>
-        </BigSubsection>
-      </section>
-      <section className={styles.section}>
-        <SmallSubsection>
-          <div className={cx(styles.card, styles.textModule)}>
-            <h3 className={styles.subTitle}>To do</h3>
-            <p>Organize a convenient, quick and understandable search / filtering by events and places.</p>
-          </div>
-        </SmallSubsection>
-        <BigSubsection>
-          <div className={styles.cards}>
+          <div className={styles.twoCollumn}>
             <div className={cx(styles.card, styles.textModule)}>
-              <h3 className={styles.subTitle}>Search</h3>
+              <h3 className={styles.subTitle}>– Search</h3>
               <p>When I want to have fun somewhere, I want the app to find the right event or place for me so that I&apos;m happy with the choice and not looking for events in other places.</p>
-            </div>
-            <div className={cx(styles.card, styles.textModule)}>
-              <h3 className={styles.subTitle}>Recomendations</h3>
+              <h3 className={styles.subTitle}>– Recomendations</h3>
               <p>When I need to take a girl/boyfriend on a date, I want the app to show a good list with the trendiest and most popular restaurants, then my companion will have a good impression of my taste.</p>
             </div>
+            <div className={cx(styles.card, styles.cardDark, styles.textModule)}>
+              <h3 className={styles.subTitle}>To do:</h3>
+              <p>Organize a convenient, quick and understandable search / filtering by events and places.</p>
+            </div>
           </div>
-        </BigSubsection>
-      </section>
-      <section className={styles.section}>
-        <SmallSubsection>
-          <div className={cx(styles.card, styles.textModule)}>
-            <h3 className={styles.subTitle}>To do</h3>
-            <p>Create a convenient form for creating an event.</p>
-          </div>
-        </SmallSubsection>
-        <BigSubsection>
-          <div className={styles.cards}>
+          <div className={styles.twoCollumn}>
             <div className={cx(styles.card, styles.textModule)}>
-              <h3 className={styles.subTitle}>Creating an event</h3>
+              <h3 className={styles.subTitle}>– Creating an event</h3>
               <p>When I want to organize an event / event, I need simple and understandable functionality in the application so as not to leave this business halfway or go to another application.</p>
             </div>
-          </div>
-        </BigSubsection>
-      </section>
-      <section className={styles.section}>
-        <SmallSubsection>
-          <div className={cx(styles.card, styles.textModule)}>
-            <h3 className={styles.subTitle}>To do</h3>
-            <p>Add the ability to share an event, as well as make detailed event cards.</p>
-          </div>
-        </SmallSubsection>
-        <BigSubsection>
-          <div className={styles.cards}>
-            <div className={cx(styles.card, styles.textModule)}>
-              <h3 className={styles.subTitle}>Sharing</h3>
-              <p>When I want to invite my friends to a concert that I found in the app, I want to be able to share the event so that they know all the information about it.</p>
+            <div className={cx(styles.card, styles.cardDark, styles.textModule)}>
+              <h3 className={styles.subTitle}>To do:</h3>
+              <p>Create a convenient form for creating an event.</p>
             </div>
           </div>
-        </BigSubsection>
-      </section>
-      <section className={styles.section}>
-        <SmallSubsection>
-          <div className={cx(styles.card, styles.textModule)}>
-            <h3 className={styles.subTitle}>To do</h3>
-            <p>Add stories on main page.</p>
-          </div>
-        </SmallSubsection>
-        <BigSubsection>
-          <div className={styles.cards}>
+          <div className={styles.twoCollumn}>
             <div className={cx(styles.card, styles.textModule)}>
-              <h3 className={styles.subTitle}>News/Stories</h3>
+              <h3 className={styles.subTitle}>– Sharing</h3>
+              <p>When I want to invite my friends to a concert that I found in the app, I want to be able to share the event so that they know all the information about it.</p>
+            </div>
+            <div className={cx(styles.card, styles.cardDark, styles.textModule)}>
+              <h3 className={styles.subTitle}>To do:</h3>
+              <p>Add the ability to share an event, as well as make detailed event cards.</p>
+            </div>
+          </div>
+          <div className={styles.twoCollumn}>
+            <div className={cx(styles.card, styles.textModule)}>
+              <h3 className={styles.subTitle}>– News/Stories</h3>
               <p>When I log into the app, I want to see stories/news about new places or activities that might be of interest to me.</p>
+            </div>
+            <div className={cx(styles.card, styles.cardDark, styles.textModule)}>
+              <h3 className={styles.subTitle}>To do:</h3>
+              <p>Add stories on main page.</p>
             </div>
           </div>
         </BigSubsection>
