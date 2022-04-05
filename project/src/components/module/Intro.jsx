@@ -10,7 +10,6 @@ function Intro() {
         I&apos;m a multidisciplinary designer with 8 year experience.
         Last years I specialize in UX/UI design for digital services and products.
         Below you can find some of&nbsp;my&nbsp;works.
-
       </p>
       <p className={styles.textContact}>
         You always can write&nbsp;me in&nbsp;
@@ -21,8 +20,7 @@ function Intro() {
         >
           Telegram
         </a>
-        <span> </span>
-          or&nbsp;by&nbsp;
+        <span> or&nbsp;by&nbsp;</span>
         <a
           className={styles.link}
           href='mailto:icebergakaib@gmail.com'
@@ -30,6 +28,8 @@ function Intro() {
         >
           email
         </a>
+        <span> and download </span>
+        <a href="../../../CV_GeorgeReznikov.pdf" className={styles.link} download>my CV</a>
       </p>
     </section>
   );

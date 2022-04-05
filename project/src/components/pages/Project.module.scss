@@ -65,11 +65,12 @@
 }
 
 .fixed {
+  position: relative;
   z-index: 100;
   position: fixed;
   left: 0;
   top: 0;
-  width: 30%;
+  width: 25%;
   height: 100vh;
   padding: 30px;
 }
@@ -146,6 +147,7 @@
 
 .list {
   @include typo_textS_project;
+  list-style: square;
   max-width: 800px;
   padding-left: 20px;
 
