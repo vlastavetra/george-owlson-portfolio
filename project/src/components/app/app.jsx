@@ -4,6 +4,7 @@ import Main from '../pages/Main';
 import Divercity from '../pages/Divercity';
 import CoffeeDip from '../pages/CoffeeDip';
 import Alcon from '../pages/Alcon';
+import Graphics from '../pages/Graphics';
 import PageNotFound from '../pages/PageNotFound';
 import '../../styles/global.scss';
 
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path="/alcon" exact>
           <Alcon />
+        </Route>
+        <Route path="/graphics" exact>
+          <Graphics />
         </Route>
         <Route>
           <PageNotFound/>
