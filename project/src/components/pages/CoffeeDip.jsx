@@ -47,7 +47,7 @@ function Project() {
             </div>
             <img
               className={styles.imageVertical}
-              src="https://thumb.tildacdn.com/tild6361-6464-4532-b034-363366323433/-/format/webp/Welcome.png"
+              src="https://thumb.tildacdn.com/tild3430-3563-4163-b231-383536623939/-/format/webp/CoffeeDip_welcome.png"
               alt="divercity"
             />
           </div>
@@ -162,7 +162,7 @@ function Project() {
           </div>
           <img
             className={styles.imageVertical}
-            src="https://habrastorage.org/webt/uf/st/tv/ufsttvvjecucwmgxncqn_3mwloc.png"
+            src="https://thumb.tildacdn.com/tild3765-6364-4836-b735-393732336234/-/format/webp/Main_Repeat_Customiz.png"
             alt="divercity"
           />
         </BigSubsection>
@@ -210,13 +210,13 @@ function Project() {
           />
           <img
             className={styles.imageHorisontal}
-            src="https://habrastorage.org/webt/rp/pa/x4/rppax4nyjt3gkqqwrtusq_siqbk.png"
+            src="https://thumb.tildacdn.com/tild6662-3931-4138-b834-653864323566/-/format/webp/UIKIT_cards_sliders.png"
             alt="divercity"
             style={{paddingBottom: '30px'}}
           />
           <img
             className={styles.imageHorisontal}
-            src="https://habrastorage.org/webt/jr/xb/xf/jrxbxfc-dw2gragreasi7crdkja.png"
+            src="https://thumb.tildacdn.com/tild3036-3865-4537-a133-303437643733/-/format/webp/Buttons_coffeedip.png"
             alt="divercity"
           />
         </BigSubsection>

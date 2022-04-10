@@ -50,7 +50,7 @@ function Project() {
             </div>
             <img
               className={styles.imageHorisontal}
-              src="https://thumb.tildacdn.com/tild6664-3931-4166-b334-663133643536/-/format/webp/Welcome_1.png"
+              src="https://thumb.tildacdn.com/tild3835-3935-4238-b334-326437313430/-/format/webp/Divercity_hi.png"
               alt="divercity"
             />
           </div>
@@ -136,7 +136,7 @@ function Project() {
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6537-3864-4263-b964-336437326631/-/format/webp/Group_2.png"
+            src="https://thumb.tildacdn.com/tild3966-3534-4164-b631-323935333366/-/format/webp/Userflow.png"
             alt="divercity"
             style={{paddingRight: '100px'}}
           />
@@ -150,7 +150,7 @@ function Project() {
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6461-6334-4162-a534-366531633930/-/format/webp/Divercity_prototype.png"
+            src="https://thumb.tildacdn.com/tild6362-6661-4132-b963-313566623835/-/format/webp/Divercity_prototype.png"
             alt="divercity"
           />
         </BigSubsection>
