@@ -19,10 +19,10 @@
 .twoCollumn {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 60px;
 
   @media screen and (min-width: $BP3_min) {
     grid-template-columns: 1fr 0.6fr;
+    gap: 60px;
   }
 }
 
@@ -65,14 +65,21 @@
 }
 
 .fixed {
-  position: relative;
   z-index: 100;
   position: fixed;
   left: 0;
   top: 0;
-  width: 25%;
-  height: 100vh;
-  padding: 30px;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-color: $color_light_grey;
+  opacity: 0.8;
+
+  @media screen and (min-width: $BP3_min) {
+    width: 25%;
+    height: 100vh;
+    padding: 30px;
+  }
 }
 
 .fixedImage {
