@@ -39,7 +39,7 @@ function Project() {
 
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6133-3166-4763-b462-366130323537/-/format/webp/Mainpage_Alcon_UPD_r.jpg"
+            src="https://thumb.tildacdn.com/tild3931-3561-4633-b836-363736303731/-/format/webp/Mainpage_Alcon_UPD_r.jpg"
             alt="divercity"
           />
         </BigSubsection>
@@ -52,7 +52,7 @@ function Project() {
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6333-6139-4166-a638-393063393639/-/format/webp/Get_A_Trial_v1.jpg"
+            src="https://thumb.tildacdn.com/tild3235-6461-4431-b634-616431313933/-/format/webp/Get_A_Trial_v1.jpg"
             alt="divercity"
           />
         </BigSubsection>
@@ -65,7 +65,7 @@ function Project() {
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6433-3635-4633-b235-346432303638/-/format/webp/Alcon_FAQ_page_r2.jpg"
+            src="https://thumb.tildacdn.com/tild6464-6664-4366-b265-623263636539/-/format/webp/Alcon_FAQ_page_r2.jpg"
             alt="divercity"
           />
         </BigSubsection>
