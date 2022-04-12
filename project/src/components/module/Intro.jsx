@@ -23,7 +23,7 @@ function Intro() {
         <span> or&nbsp;by&nbsp;</span>
         <a
           className={styles.link}
-          href='mailto:icebergakaib@gmail.com'
+          href='mailto:georgereznikov86@gmail.com'
           rel='noopener noreferrer'
         >
           email
