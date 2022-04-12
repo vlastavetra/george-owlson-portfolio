@@ -31,7 +31,7 @@ function Project() {
           <div className={styles.textModule}>
             <h2 className={styles.title}>About</h2>
             <p className={styles.text}>
-            Below are several graphic posters, keyvisuals and retouch images that I've made.
+            Below are several graphic posters, keyvisuals and retouch images that I&apos;ve made.
             </p>
             <h3 className={styles.subTitle}>McDonald&apos;s + ZIQ</h3>
           </div>
