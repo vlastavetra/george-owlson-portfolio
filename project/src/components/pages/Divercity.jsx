@@ -211,7 +211,7 @@ function Project() {
       <section className={styles.section}>
         <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
-          <div className={styles.imgs}>
+          <div className={styles.threeImgs}>
             <div>
               <h3 className={styles.centerTitle}>Autorization</h3>
               <img

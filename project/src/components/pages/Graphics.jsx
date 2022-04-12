@@ -36,11 +36,18 @@ function Project() {
             </p>
             <h3 className={styles.subTitle}>Main page</h3>
           </div>
-          <img
-            className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6133-3166-4763-b462-366130323537/-/format/webp/Mainpage_Alcon_UPD_r.jpg"
-            alt="divercity"
-          />
+          <div className={styles.twoImgs}>
+            <img
+              className={styles.imageHorisontal}
+              src="https://thumb.tildacdn.com/tild6133-3166-4763-b462-366130323537/-/format/webp/Mainpage_Alcon_UPD_r.jpg"
+              alt="divercity"
+            />
+            <img
+              className={styles.imageHorisontal}
+              src="https://thumb.tildacdn.com/tild6133-3166-4763-b462-366130323537/-/format/webp/Mainpage_Alcon_UPD_r.jpg"
+              alt="divercity"
+            />
+          </div>
         </BigSubsection>
       </section>
       <section className={styles.section}>

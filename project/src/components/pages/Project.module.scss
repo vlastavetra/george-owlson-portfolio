@@ -87,13 +87,24 @@
   padding: 45px 60px;
 }
 
-.imgs {
+.threeImgs {
   display: grid;
   grid-template-columns: 1fr;
   gap: 60px;
 
   @media screen and (min-width: $BP2_min) {
     grid-template-columns: repeat(3, calc(90% / 3));
+    gap: 5%;
+  }
+}
+
+.twoImgs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+
+  @media screen and (min-width: $BP2_min) {
+    grid-template-columns: repeat(2, calc(95% / 2));
     gap: 5%;
   }
 }

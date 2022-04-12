@@ -100,7 +100,7 @@ function Project() {
               For the application&apos;s work, a simple registration is required using a phone number and specifying a name.
             </p>
           </div>
-          <div className={styles.imgs}>
+          <div className={styles.threeImgs}>
             <div>
               <h3 className={styles.centerTitle}>Step 1</h3>
               <img
@@ -137,7 +137,7 @@ function Project() {
               It&apos;s carried out by searching through geolocation, selecting a place on the map, or searching through a list.
             </p>
           </div>
-          <div className={styles.imgs}>
+          <div className={styles.threeImgs}>
             <div>
               <img
                 className={styles.imageHorisontal}
@@ -170,7 +170,7 @@ function Project() {
       <section className={styles.section}>
         <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
-          <div className={styles.imgs}>
+          <div className={styles.threeImgs}>
             <div>
               <h3 className={styles.centerTitle}>Basket and payment</h3>
               <img
