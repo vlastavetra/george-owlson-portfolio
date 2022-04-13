@@ -127,6 +127,19 @@ function Project() {
           />
         </BigSubsection>
       </section>
+      <section className={styles.section}>
+        <SmallSubsection/>
+        <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
+          <div className={styles.textModule}>
+            <h3 className={styles.subTitle}>Cola-Cola / Cans desing</h3>
+          </div>
+          <img
+            className={styles.imageHorisontal}
+            src="https://thumb.tildacdn.com/tild3032-3337-4930-a337-326164663133/-/format/webp/CC_3cans_mockup.jpeg"
+            alt="divercity"
+          />
+        </BigSubsection>
+      </section>
     </main>
   );
 }
