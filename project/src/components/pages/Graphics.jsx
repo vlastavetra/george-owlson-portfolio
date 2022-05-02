@@ -21,7 +21,7 @@ function Project() {
         <BigSubsection style={{paddingTop: '80px'}}>
           <ProjectTitle
             title='Graphics'
-            description='some text'
+            description=''
           />
         </BigSubsection>
       </section>
@@ -31,20 +31,19 @@ function Project() {
           <div className={styles.textModule}>
             <h2 className={styles.title}>About</h2>
             <p className={styles.text}>
-            The task is to develop an information site where users can learn everything about lenses and care products for them.
-            I was engaged in the design of the site and graphic elements.
+            Below are several graphic posters, keyvisuals and retouch images that I&apos;ve made.
             </p>
-            <h3 className={styles.subTitle}>Main page</h3>
+            <h3 className={styles.subTitle}>McDonald&apos;s + ZIQ</h3>
           </div>
           <div className={styles.twoImgs}>
             <img
               className={styles.imageHorisontal}
-              src="https://thumb.tildacdn.com/tild6133-3166-4763-b462-366130323537/-/format/webp/Mainpage_Alcon_UPD_r.jpg"
+              src="https://thumb.tildacdn.com/tild3762-3065-4931-b936-303161373563/-/format/webp/rockstar_popstar_v3.jpg"
               alt="divercity"
             />
             <img
               className={styles.imageHorisontal}
-              src="https://thumb.tildacdn.com/tild6133-3166-4763-b462-366130323537/-/format/webp/Mainpage_Alcon_UPD_r.jpg"
+              src="https://thumb.tildacdn.com/tild3139-6231-4539-b433-306665303238/-/format/webp/ZIC_engine_label_v1d.jpg"
               alt="divercity"
             />
           </div>
@@ -54,11 +53,11 @@ function Project() {
         <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
-            <h3 className={styles.subTitle}>Lens order form</h3>
+            <h3 className={styles.subTitle}>Nissan / Qashqai KV</h3>
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6333-6139-4166-a638-393063393639/-/format/webp/Get_A_Trial_v1.jpg"
+            src="https://thumb.tildacdn.com/tild6132-6434-4230-b732-303536663639/-/format/webp/shutterstock_1225073.jpg"
             alt="divercity"
           />
         </BigSubsection>
@@ -67,11 +66,50 @@ function Project() {
         <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px'}}>
           <div className={styles.textModule}>
-            <h3 className={styles.subTitle}>FAQ</h3>
+            <h3 className={styles.subTitle}>Nissan / Qashqai salon retouch</h3>
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6433-3635-4633-b235-346432303638/-/format/webp/Alcon_FAQ_page_r2.jpg"
+            src="https://thumb.tildacdn.com/tild3364-6664-4364-b834-333730363730/-/format/webp/QQ_2020_Cacao_QQ0519.jpg"
+            alt="divercity"
+          />
+        </BigSubsection>
+      </section>
+      <section className={styles.section}>
+        <SmallSubsection/>
+        <BigSubsection style={{paddingTop: '100px'}}>
+          <div className={styles.textModule}>
+            <h3 className={styles.subTitle}>Datsun / Broshure KV</h3>
+          </div>
+          <img
+            className={styles.imageHorisontal}
+            src="https://thumb.tildacdn.com/tild3139-3861-4237-b138-396365343033/-/format/webp/Datsun-04_10_ALT_r.jpg"
+            alt="divercity"
+          />
+        </BigSubsection>
+      </section>
+      <section className={styles.section}>
+        <SmallSubsection/>
+        <BigSubsection style={{paddingTop: '100px'}}>
+          <div className={styles.textModule}>
+            <h3 className={styles.subTitle}>Lokomotiv / Posters</h3>
+          </div>
+          <img
+            className={styles.imageHorisontal}
+            src="https://thumb.tildacdn.com/tild6366-3635-4464-b335-316533313539/-/format/webp/Loko_posters.png"
+            alt="divercity"
+          />
+        </BigSubsection>
+      </section>
+      <section className={styles.section}>
+        <SmallSubsection/>
+        <BigSubsection style={{paddingTop: '100px'}}>
+          <div className={styles.textModule}>
+            <h3 className={styles.subTitle}>Adidas / Pulse HD</h3>
+          </div>
+          <img
+            className={styles.imageHorisontal}
+            src="https://thumb.tildacdn.com/tild3237-6131-4436-b035-376264656236/-/format/webp/pulsheHD_KV_4.jpg"
             alt="divercity"
           />
         </BigSubsection>
@@ -80,11 +118,24 @@ function Project() {
         <SmallSubsection/>
         <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
           <div className={styles.textModule}>
-            <h3 className={styles.subTitle}>Admin dashboard</h3>
+            <h3 className={styles.subTitle}>Gazpromneft / Loyalty program</h3>
           </div>
           <img
             className={styles.imageHorisontal}
-            src="https://thumb.tildacdn.com/tild6539-6233-4036-b637-616339366131/-/format/webp/Alcon-PA-Edit-ECP_v2.jpg"
+            src="https://thumb.tildacdn.com/tild3434-3930-4235-b238-386366386265/-/format/webp/GPN__.jpg"
+            alt="divercity"
+          />
+        </BigSubsection>
+      </section>
+      <section className={styles.section}>
+        <SmallSubsection/>
+        <BigSubsection style={{paddingTop: '100px', paddingBottom: '100px'}}>
+          <div className={styles.textModule}>
+            <h3 className={styles.subTitle}>Cola-Cola / Cans desing</h3>
+          </div>
+          <img
+            className={styles.imageHorisontal}
+            src="https://thumb.tildacdn.com/tild3032-3337-4930-a337-326164663133/-/format/webp/CC_3cans_mockup.jpeg"
             alt="divercity"
           />
         </BigSubsection>

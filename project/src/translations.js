@@ -60,6 +60,14 @@ const translations = {
       mainDescription: 'Design of the Czech site Alcon',
       introImg: 'https://thumb.tildacdn.com/tild3163-3031-4536-b332-346630666639/-/format/webp/alcon_cover.png',
     },
+    {
+      id: 'graphics',
+      name: 'Graphics',
+      shortDescription: '',
+      works: 'Posters, Key visuals, Packaging design',
+      mainDescription: '',
+      introImg: 'https://thumb.tildacdn.com/tild6362-6438-4435-a337-386364346334/-/format/webp/main_page_graphics_c.png',
+    },
   ],
   buttons: {
     readMore: 'Read more',
