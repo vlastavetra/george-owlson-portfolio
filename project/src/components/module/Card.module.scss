@@ -34,7 +34,7 @@
 	}
 
   @media screen and (min-width: $BP4_min) {
-    padding: 40px 20px 30px 40px;
+    padding: 40px;
 	}
 
   @media screen and (min-width: $BP5_min) {
@@ -47,6 +47,8 @@
   background-color: $color_dark_grey;
   width: 100%;
   order: -1;
+  display: flex;
+  flex-direction: column;
 
   @media screen and (min-width: $BP3_min) {
     width: 30%;
@@ -72,72 +74,37 @@
 	}
 }
 
+.title {
+  @include typo_h2;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  @include typo_textS;
+  margin-bottom: 50px;
+}
+
 .text {
   @include typo_textM;
   display: block;
   flex-grow: 1;
   max-width: 900px;
-}
-
-.title {
-  @include typo_h2;
-  margin-bottom: 30px;
-}
-
-.subTitle {
-  @include typo_textS;
-}
-
-.imageBoard {
-  display: flex;
-  gap: 20px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.imageContainer {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 65%;
-
-  @media screen and (min-width: $BP2_min) {
-    padding-top: 70%;
-	}
-
-  @media screen and (min-width: $BP3_min) {
-    padding-top: 50%;
-	}
-}
-
-.image {
-  position: absolute;
-  object-fit: contain;
-  bottom: 0;
-  left: 0;
-  height: 100%;
+  margin-bottom: 60px;
+  flex-grow: 1;
 }
 
 .link {
   @include typo_link;
+  width: 80%;
   position: relative;
-  padding: 20px 35px 0 0;
+  padding: 15px;
+  text-align: center;
   transition: all .3s ease;
+  border: 1px solid $color_purple;
 
   &:hover {
-    .arrow {
-      right: -10px;
-      transition: all .3s ease;
-    }
+    color: $color_purple;
+    border: 1px solid $color_black;
+    transition: all .3s ease;
   }
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  right: -5px;
-  width: 14px;
-  height: 40px;
-  transform: rotate(-90deg) translateX(70%);
-  transition: all .3s ease;
 }
