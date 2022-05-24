@@ -77,7 +77,7 @@ const translations = {
         {
           id: 1,
           src: 'https://thumb.tildacdn.com/tild3762-3065-4931-b936-303161373563/-/format/webp/rockstar_popstar_v3.jpg',
-          text: 'Posters for McDonald\'s. Kannes Lion',
+          text: 'Poster for McDonald\'s. Cannes Lion',
         },
         {
           id: 2,
