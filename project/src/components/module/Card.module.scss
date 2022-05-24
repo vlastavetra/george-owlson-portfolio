@@ -87,10 +87,8 @@
 .text {
   @include typo_textM;
   display: block;
-  flex-grow: 1;
   max-width: 900px;
   margin-bottom: 60px;
-  flex-grow: 1;
 }
 
 .link {

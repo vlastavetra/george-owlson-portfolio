@@ -6,7 +6,7 @@ import styles from '../module/Card.module.scss';
 
 function Card({id, name, mainDescription, works, slides, button}) {
   return (
-    <div className={styles.root}>
+    <div className={styles.root} id={id}>
       <div className={styles.left}>
         <Slider
           slides={slides}

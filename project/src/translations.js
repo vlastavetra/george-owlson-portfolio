@@ -24,7 +24,7 @@ const translations = {
           src: 'https://thumb.tildacdn.com/tild6131-6432-4631-b662-623932303932/-/format/webp/DC_filters_search.png',
         },
       ],
-      button: 'Read about keys study',
+      button: 'View case study',
     },
     {
       id: 'coffee-dip',
@@ -37,8 +37,20 @@ const translations = {
           id: 1,
           src: 'https://thumb.tildacdn.com/tild3138-6338-4231-a139-633035613563/-/format/webp/CoffeeDip_cover.png',
         },
+        {
+          id: 2,
+          src: 'https://thumb.tildacdn.com/tild3234-6439-4763-b162-613162663139/-/format/webp/CD_screens_1.png',
+        },
+        {
+          id: 3,
+          src: 'https://thumb.tildacdn.com/tild3265-3064-4331-a635-656364643835/-/format/webp/CD_screens_2.png',
+        },
+        {
+          id: 4,
+          src: 'https://thumb.tildacdn.com/tild6339-3764-4061-a434-643964333130/-/format/webp/CD_screens_3.png',
+        },
       ],
-      button: 'Read about keys study',
+      button: 'View case study',
     },
     {
       id: 'alcon',
