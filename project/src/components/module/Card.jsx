@@ -15,9 +15,10 @@ function Card({id, name, mainDescription, works, slides, button}) {
       <div className={styles.right}>
         <h2 className={styles.title}>{name}</h2>
         <p className={styles.subTitle}>{works}</p>
-        <p className={styles.text}>
-          {mainDescription}
-        </p>
+        {mainDescription &&
+          <p className={styles.text}>
+            {mainDescription}
+          </p>}
         {button &&
           <Link className={styles.link} to={id}>
             {button}
