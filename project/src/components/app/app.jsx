@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Main from '../pages/Main';
+import Gem from '../pages/Gem';
 import Divercity from '../pages/Divercity';
 import CoffeeDip from '../pages/CoffeeDip';
 import Alcon from '../pages/Alcon';
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Main />
+        </Route>
+        <Route path="/gem" exact>
+          <Gem />
         </Route>
         <Route path="/divercity" exact>
           <Divercity />

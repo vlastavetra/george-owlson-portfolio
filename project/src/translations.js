@@ -1,9 +1,34 @@
 const translations = {
   projects: [
     {
+      id: 'gem',
+      name: 'GEM',
+      works: 'Research, Prototyping, Visual\u00A0Design',
+      mainDescription: 'Investment financial crypto platform.',
+      status: 'work in progress',
+      slides: [
+        {
+          id: 1,
+          src: 'https://thumb.tildacdn.com/tild3336-6361-4235-b032-393134313166/-/format/webp/Admindash.png',
+        },
+        {
+          id: 2,
+          src: 'https://thumb.tildacdn.com/tild3264-6333-4239-b638-663532366435/-/format/webp/mainscreen.png',
+        },
+        {
+          id: 3,
+          src: 'https://thumb.tildacdn.com/tild3939-6339-4839-a263-643034353937/-/format/webp/chosestrat.png',
+        },
+        {
+          id: 4,
+          src: 'https://thumb.tildacdn.com/tild3865-3865-4663-a636-663436336138/-/format/webp/bought_strat.png',
+        },
+      ],
+      button: 'View case study',
+    },
+    {
       id: 'divercity',
       name: 'Divercity',
-      shortDescription: 'Приложение для поиска интересных событий',
       works: 'Research, Prototyping, Visual\u00A0Design',
       mainDescription: 'Mobile application that helps you find an interesting event that considering all sorts of factors like mood, exact time or place.',
       slides: [
@@ -29,7 +54,6 @@ const translations = {
     {
       id: 'coffee-dip',
       name: 'Coffe Dip',
-      shortDescription: 'Приложение для заказа кофе',
       works: 'Research, Prototyping, Visual Design',
       mainDescription: 'Mobile application for people who love delicious coffee, are always in a hurry and don\'t want to waste time by standing in queues',
       slides: [
@@ -55,7 +79,6 @@ const translations = {
     {
       id: 'alcon',
       name: 'Alcon',
-      shortDescription: 'Web site',
       works: 'Prototyping, Visual Design',
       mainDescription: 'Design of the Czech site Alcon',
       slides: [
@@ -69,7 +92,6 @@ const translations = {
     {
       id: 'graphics',
       name: 'Graphics',
-      shortDescription: '',
       works: 'Posters, Key visuals, Packaging design',
       mainDescription: '',
       introImg: 'https://thumb.tildacdn.com/tild6362-6438-4435-a337-386364346334/-/format/webp/main_page_graphics_c.png',

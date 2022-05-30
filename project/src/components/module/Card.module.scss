@@ -91,6 +91,11 @@
   margin-bottom: 60px;
 }
 
+.status {
+  @include typo_textS;
+  margin-bottom: 30px;
+}
+
 .link {
   @include typo_link;
   width: 80%;

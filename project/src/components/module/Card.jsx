@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import Slider from './Slider';
 import styles from '../module/Card.module.scss';
 
-function Card({id, name, mainDescription, works, slides, button}) {
+function Card({id, name, mainDescription, works, slides, button, status}) {
   return (
     <div className={styles.root} id={id}>
       <div className={styles.left}>
@@ -18,6 +18,10 @@ function Card({id, name, mainDescription, works, slides, button}) {
         {mainDescription &&
           <p className={styles.text}>
             {mainDescription}
+          </p>}
+        {status &&
+          <p className={styles.status}>
+            *{status}
           </p>}
         {button &&
           <Link className={styles.link} to={id}>
@@ -35,6 +39,7 @@ Card.propTypes = {
   works: PropTypes.string.isRequired,
   slides: PropTypes.array,
   button: PropTypes.string,
+  status: PropTypes.string,
 };
 
 export default Card;
