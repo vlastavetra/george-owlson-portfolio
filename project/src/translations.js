@@ -9,11 +9,11 @@ const translations = {
       slides: [
         {
           id: 1,
-          src: 'https://thumb.tildacdn.com/tild3336-6361-4235-b032-393134313166/-/format/webp/Admindash.png',
+          src: 'https://thumb.tildacdn.com/tild3264-6333-4239-b638-663532366435/-/format/webp/mainscreen.png',
         },
         {
           id: 2,
-          src: 'https://thumb.tildacdn.com/tild3264-6333-4239-b638-663532366435/-/format/webp/mainscreen.png',
+          src: 'https://thumb.tildacdn.com/tild3336-6361-4235-b032-393134313166/-/format/webp/Admindash.png',
         },
         {
           id: 3,
