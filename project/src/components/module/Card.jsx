@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import Slider from './Slider';
 import styles from '../module/Card.module.scss';
 
-function Card({id, name, mainDescription, works, slides, button, status}) {
+function Card({id, name, mainDescription, works, slides, button, status, buttonColor}) {
   return (
     <div className={styles.root} id={id}>
       <div className={styles.left}>
@@ -24,7 +24,7 @@ function Card({id, name, mainDescription, works, slides, button, status}) {
             *{status}
           </p>}
         {button &&
-          <Link className={styles.link} to={id}>
+          <Link className={styles.link} to={id} style={{backgroundColor: buttonColor}}>
             {button}
           </Link>}
       </div>
@@ -39,6 +39,7 @@ Card.propTypes = {
   works: PropTypes.string.isRequired,
   slides: PropTypes.array,
   button: PropTypes.string,
+  buttonColor: PropTypes.string,
   status: PropTypes.string,
 };
 

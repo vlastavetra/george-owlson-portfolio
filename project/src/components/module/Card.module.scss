@@ -102,12 +102,13 @@
   position: relative;
   padding: 15px;
   text-align: center;
-  transition: all .3s ease;
-  border: 1px solid $color_purple;
+  box-shadow: none;
+  color: $color_white;
+  border-radius: 16px;
+  transition: box-shadow .5s ease-out;
 
   &:hover {
-    color: $color_purple;
-    border: 1px solid $color_black;
-    transition: all .3s ease;
+    box-shadow: 1px 6px 19px 0px rgba(0, 0, 0, 0.2);
+    transition: box-shadow .3s ease;
   }
 }

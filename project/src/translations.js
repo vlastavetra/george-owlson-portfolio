@@ -25,6 +25,7 @@ const translations = {
         },
       ],
       button: 'View case study',
+      buttonColor: '#015AED',
     },
     {
       id: 'divercity',
@@ -50,6 +51,7 @@ const translations = {
         },
       ],
       button: 'View case study',
+      buttonColor: '#915DE8',
     },
     {
       id: 'coffee-dip',
@@ -75,6 +77,7 @@ const translations = {
         },
       ],
       button: 'View case study',
+      buttonColor: '#F95C24',
     },
     {
       id: 'alcon',
@@ -88,6 +91,7 @@ const translations = {
         },
       ],
       button: 'See more',
+      buttonColor: '#003496',
     },
     {
       id: 'graphics',
