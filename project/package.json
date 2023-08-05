@@ -52,5 +52,8 @@
     "eslint-config-htmlacademy": "^4.1.0",
     "redux-devtools-extension": "2.13",
     "redux-mock-store": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
