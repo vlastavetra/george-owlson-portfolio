@@ -1,32 +1,38 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import {Link} from 'react-router-dom';
-import Slider from './Slider';
-import styles from '../module/Card.module.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import Slider from "./Slider";
+import styles from "../module/Card.module.scss";
 
-function Card({id, name, mainDescription, works, slides, button, status, buttonColor}) {
+function Card({
+  id,
+  name,
+  mainDescription,
+  works,
+  slides,
+  button,
+  status,
+  buttonColor,
+}) {
   return (
     <div className={styles.root} id={id}>
       <div className={styles.left}>
-        <Slider
-          slides={slides}
-        />
+        <Slider slides={slides} />
       </div>
       <div className={styles.right}>
         <h2 className={styles.title}>{name}</h2>
         <p className={styles.subTitle}>{works}</p>
-        {mainDescription &&
-          <p className={styles.text}>
-            {mainDescription}
-          </p>}
-        {status &&
-          <p className={styles.status}>
-            *{status}
-          </p>}
-        {button &&
-          <Link className={styles.link} to={id} style={{backgroundColor: buttonColor}}>
+        {mainDescription && <p className={styles.text}>{mainDescription}</p>}
+        {status && <p className={styles.status}>{status}</p>}
+        {button && (
+          <Link
+            className={styles.link}
+            to={id}
+            style={{ backgroundColor: buttonColor }}
+          >
             {button}
-          </Link>}
+          </Link>
+        )}
       </div>
     </div>
   );

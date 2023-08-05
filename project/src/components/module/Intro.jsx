@@ -15,14 +15,14 @@ function Intro() {
         things simple.
       </p>
       <p className={styles.textContact}>
-        You always can write&nbsp;me in&nbsp;
+        You always can write&nbsp;me by&nbsp;
         <a
           className={styles.link}
-          href="https://t.me/georgeowlson"
+          href="https://wa.me/+972533639477"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Telegram
+          WatsApp
         </a>
         <span> or&nbsp;by&nbsp;</span>
         <a

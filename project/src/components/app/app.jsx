@@ -1,13 +1,14 @@
-import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import Main from '../pages/Main';
-import Gem from '../pages/Gem';
-import Divercity from '../pages/Divercity';
-import CoffeeDip from '../pages/CoffeeDip';
-import Alcon from '../pages/Alcon';
-import Graphics from '../pages/Graphics';
-import PageNotFound from '../pages/PageNotFound';
-import '../../styles/global.scss';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Main from "../pages/Main";
+import SpeedVPN from "../pages/SpeedVPN";
+import Gem from "../pages/Gem";
+import Divercity from "../pages/Divercity";
+import CoffeeDip from "../pages/CoffeeDip";
+import Alcon from "../pages/Alcon";
+import Graphics from "../pages/Graphics";
+import PageNotFound from "../pages/PageNotFound";
+import "../../styles/global.scss";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Main />
+        </Route>
+        <Route path="/speedvpn" exact>
+          <SpeedVPN />
         </Route>
         <Route path="/gem" exact>
           <Gem />
@@ -32,7 +36,7 @@ function App() {
           <Graphics />
         </Route>
         <Route>
-          <PageNotFound/>
+          <PageNotFound />
         </Route>
       </Switch>
     </BrowserRouter>
