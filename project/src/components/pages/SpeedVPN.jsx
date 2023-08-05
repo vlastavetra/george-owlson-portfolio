@@ -34,20 +34,20 @@ function Project() {
       </section>
       <section className={styles.section}>
         <SmallSubsection />
-        <BigSubsection style={{ paddingTop: "100px" }}>
+        <BigSubsection style={{ paddingTop: "50px" }}>
           <div className={styles.textModule}>
-            <h2 className={styles.title}>Task</h2>
             <p className={styles.text}>
-              Design a user-friendly interface for a VPN app that provides
-              better privacy and unrestricted internet access. The design should
-              clearly show the two VPN options and include security features.
+              Our VPN designed to provide users with enhanced privacy and
+              unrestricted online access. Our VPN offers two distinct options to
+              cater to a wide range of user needs, ensuring a seamless and
+              secure browsing experience for all.
             </p>
           </div>
         </BigSubsection>
       </section>
       <section className={styles.section}>
         <SmallSubsection />
-        <BigSubsection style={{ paddingTop: "50px" }}>
+        <BigSubsection style={{ paddingTop: "30px" }}>
           <div className={styles.textModule}>
             <h3 className={styles.subTitle}>Option 1: Premium Subscription</h3>
             <p className={styles.singleText}>
@@ -138,7 +138,7 @@ function Project() {
       </section>
       <section className={styles.section}>
         <SmallSubsection />
-        <BigSubsection style={{ paddingTop: "100px", paddingBottom: "100px" }}>
+        <BigSubsection style={{ paddingTop: "100px" }}>
           <div className={styles.textModule}>
             <h2 className={styles.title}>Visual design</h2>
             <p className={styles.text}>
@@ -193,9 +193,18 @@ function Project() {
             src="https://framerusercontent.com/images/2wWDBK05rlSvUF0fedhvEgKfnk.jpg"
             alt=""
           />
+        </BigSubsection>
+      </section>
+      <section className={styles.section}>
+        <SmallSubsection />
+        <BigSubsection style={{ paddingTop: "100px", paddingBottom: "100px" }}>
           <div className={styles.textModule}>
-            <p className={styles.text} style={{ paddingTop: "60px" }}>
-              Last step before release was app store cover.
+            <h3 className={styles.subTitle}>Conclusion</h3>
+            <p className={styles.text}>
+              In summary, our study of the pre-release SpeedVPN has given us
+              valuable insights into how users interact with the app. Despite
+              not being officially released, the app already shows promise in
+              terms of user-friendliness and efficiency.
             </p>
           </div>
           <img
