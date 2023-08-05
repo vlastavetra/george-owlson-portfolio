@@ -67,6 +67,10 @@
 
 .imageHorisontal {
   width: 100%;
+
+  @media screen and (min-width: $BP5_min) {
+    width: 80%;
+  }
 }
 
 .imageHorisontalSmall {
@@ -74,6 +78,10 @@
 
   @media screen and (min-width: $BP3_min) {
     width: 70%;
+  }
+
+  @media screen and (min-width: $BP5_min) {
+    width: 50%;
   }
 }
 
@@ -89,10 +97,13 @@
   opacity: 0.8;
 
   @media screen and (min-width: $BP3_min) {
-    width: 20%;
-    height: 100vh;
-    padding: 30px;
     padding-top: 50px;
+    height: 110px;
+    background-color: transparent;
+  }
+
+  @media screen and (min-width: $BP5_min) {
+    padding: 40px;
   }
 }
 

@@ -8,10 +8,26 @@
   padding: 0 20px;
 
   @media screen and (min-width: $BP3_min) {
+    width: 25%;
+    padding: 0 40px;
+    -webkit-box-shadow: -16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
+    -moz-box-shadow: -16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
+    box-shadow: -22px 0px 10px -10px rgba(118, 123, 128, 0.5) inset;
+  }
+
+  @media screen and (min-width: $BP4_min) {
     width: 20%;
     padding: 0 40px;
     -webkit-box-shadow: -16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
     -moz-box-shadow: -16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
-    box-shadow: -22px 0px 14px -10px rgba(118, 123, 128, 0.7) inset;
+    box-shadow: -22px 0px 10px -10px rgba(118, 123, 128, 0.5) inset;
+  }
+
+  @media screen and (min-width: $BP5_min) {
+    width: 25%;
+    padding: 0 200px;
+    -webkit-box-shadow: -16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
+    -moz-box-shadow: -16px 0px 12px -16px rgba(118, 123, 128, 0.39) inset;
+    box-shadow: -30px 0px 20px -20px rgba(118, 123, 128, 0.4) inset;
   }
 }

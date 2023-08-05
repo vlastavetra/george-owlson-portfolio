@@ -157,12 +157,12 @@ function Project() {
             </p>
           </div>
           <img
-            className={styles.imageVertical}
+            className={styles.imageHorisontal}
             src="https://framerusercontent.com/images/WS2wO21s8qRmr465yKnCYJIAm4w.png"
             alt=""
           />
           <img
-            className={styles.imageVertical}
+            className={styles.imageHorisontal}
             src="https://framerusercontent.com/images/StOudDbU7ayUnw9KfcGlMXSzrL8.jpg"
             alt=""
             style={{ paddingTop: "20px" }}
@@ -189,7 +189,7 @@ function Project() {
             </p>
           </div>
           <img
-            className={styles.imageVertical}
+            className={styles.imageHorisontal}
             src="https://framerusercontent.com/images/2wWDBK05rlSvUF0fedhvEgKfnk.jpg"
             alt=""
           />
@@ -208,7 +208,7 @@ function Project() {
             </p>
           </div>
           <img
-            className={styles.imageVertical}
+            className={styles.imageHorisontal}
             src="https://framerusercontent.com/images/n5T9dGoHESkrLSXzGLDzRBc.jpg"
             alt=""
           />
