@@ -38,15 +38,9 @@ function Project() {
           <div className={styles.textModule}>
             <h2 className={styles.title}>Task</h2>
             <p className={styles.text}>
-              Design an interface for a VPN application, aimed at providing
-              users with enhanced privacy and unrestricted online access. The
-              primary focus is on creating a user-friendly interface with clear
-              differentiation between the two distinct VPN options, while
-              incorporating security and trust elements to instill confidence in
-              users. Additionally, maintaining brand consistency is essential to
-              establish a strong identity for the application. The deadline for
-              the app release is approaching, so timely execution of the design
-              is crucial.
+              Design a user-friendly interface for a VPN app that provides
+              better privacy and unrestricted internet access. The design should
+              clearly show the two VPN options and include security features.
             </p>
           </div>
         </BigSubsection>
@@ -55,7 +49,6 @@ function Project() {
         <SmallSubsection />
         <BigSubsection style={{ paddingTop: "50px" }}>
           <div className={styles.textModule}>
-            <h2 className={styles.title}>Wireframes</h2>
             <h3 className={styles.subTitle}>Option 1: Premium Subscription</h3>
             <p className={styles.singleText}>
               For users seeking an ad-free and premium experience, our VPN
@@ -68,7 +61,7 @@ function Project() {
             </p>
           </div>
           <img
-            className={styles.imageHorisontal}
+            className={styles.imageHorisontalSmall}
             src="https://framerusercontent.com/modules/0U4ldaYIXRPhWIppYfAj/cLLaNdaOrgaMTbUaectn/assets/1024/h4vzn6VGcJjcGxeE16tdOrMTrvo.png"
             alt="gem"
           />
@@ -89,7 +82,7 @@ function Project() {
             </p>
           </div>
           <img
-            className={styles.imageHorisontal}
+            className={styles.imageHorisontalSmall}
             src="https://framerusercontent.com/images/m13XBhdSdqK1PwkNHT6n0zgabl4.png"
             alt=""
           />
@@ -202,7 +195,7 @@ function Project() {
           />
           <div className={styles.textModule}>
             <p className={styles.text} style={{ paddingTop: "60px" }}>
-              Last step before release was app store cover
+              Last step before release was app store cover.
             </p>
           </div>
           <img
