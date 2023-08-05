@@ -113,4 +113,8 @@
     box-shadow: 1px 6px 19px 0px rgba(0, 0, 0, 0.2);
     transition: box-shadow .3s ease;
   }
+
+  @media screen and (min-width: $BP5_min) {
+    width: 60%;
+	}
 }

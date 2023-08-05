@@ -21,9 +21,7 @@ function Card({
       </div>
       <div className={styles.right}>
         <h2 className={styles.title}>{name}</h2>
-        <p className={styles.subTitle}>{works}</p>
         {mainDescription && <p className={styles.text}>{mainDescription}</p>}
-        {status && <p className={styles.status}>{status}</p>}
         {button && (
           <Link
             className={styles.link}
